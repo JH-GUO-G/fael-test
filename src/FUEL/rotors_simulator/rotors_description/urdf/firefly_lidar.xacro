@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--
+  Copyright 2015 Fadri Furrer, ASL, ETH Zurich, Switzerland
+  Copyright 2015 Michael Burri, ASL, ETH Zurich, Switzerland
+  Copyright 2015 Mina Kamel, ASL, ETH Zurich, Switzerland
+  Copyright 2015 Janosch Nikolic, ASL, ETH Zurich, Switzerland
+  Copyright 2015 Markus Achtelik, ASL, ETH Zurich, Switzerland
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<robot name="firefly_lidar" xmlns:xacro="http://ros.org/wiki/xacro">
+  <!-- <xacro:include filename="$(find rotors_description)/urdf/component_snippets.xacro" /> -->
+  <!-- Instantiate firefly "mechanics" -->
+  <xacro:include filename="$(find rotors_description)/urdf/firefly.xacro" />
+
+  <xacro:include filename="$(find livox_laser_simulation)/urdf/livox_mid360.xacro" />
+
+  <xacro:Livox_Mid40 name="livox"/>
+
+  <joint name="base_link_inertia_to_livox_base_joint" type="fixed">
+    <parent link="firefly/base_link_inertia"/>
+    <child link="livox_base"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+ </joint>
+
+
+  <!-- <joint name="firefly_base_to_base_lidar_joint" type="fixed">
+  <parent link="firefly_base"/>
+  <child link="lidar_base"/>
+  <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+</joint> -->
+
+</robot>
+
