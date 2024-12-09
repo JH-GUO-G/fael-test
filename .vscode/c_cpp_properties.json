@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/gjh/fuel/devel/include/**",
+        "/home/gjh/Fast-Planner/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/active_perception/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/bspline/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/bspline_opt/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/exploration_manager/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/utils/lkh_tsp_solver/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/local_sensing/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/Utils/multi_map_server/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/path_searching/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/plan_env/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/plan_manage/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/poly_traj/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/Utils/pose_utils/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/so3_control/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/so3_disturbance_generator/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/gjh/fuel/src/FUEL/fuel_planner/traj_utils/include/**",
+        "/home/gjh/fuel/src/FUEL/uav_simulator/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

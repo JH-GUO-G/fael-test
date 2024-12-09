@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<launch>
+  <!-- Load xacro model -->
+  <param name="robot_description" command="$(find xacro)/xacro '$(find rotors_description)/urdf/firefly_base.xacro'" />
+
+  <!-- Publish robot state -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+  <!-- Open RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" />
+</launch>

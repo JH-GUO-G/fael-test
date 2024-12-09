@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="mav_name" default="firefly"/>
+  <arg name="namespace" default="$(arg mav_name)"/>
+  <arg name="model" default="$(find rotors_description)/urdf/$(arg mav_name)_base.xacro"/>
+  <arg name="tf_prefix" default="$(optenv ROS_NAMESPACE)"/>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.1"/>
+  <arg name="enable_logging" default="false"/>
+  <arg name="enable_ground_truth" default="true"/>
+  <arg name="log_file" default="$(arg mav_name)"/>
+  <arg name="wait_to_record_bag" default="false"/>
+  <arg name="enable_mavlink_interface" default="false"/>
+
+  <!-- send the robot XML to param server -->
+  
+  <arg name="world" default="$(find livox_laser_simulation)/worlds/standardrobots_factory.world" />
+  <!-- <arg name="livox_sensor" default="$(find livox_laser_simulation)/urdf/livox_mid360.xacro" /> -->
+  <arg name="livox_sensor" default="$(find rotors_description)/urdf/firefly_base.xacro 
+  enable_logging:=$(arg enable_logging)
+    enable_ground_truth:=$(arg enable_ground_truth)
+    enable_mavlink_interface:=$(arg enable_mavlink_interface)
+    log_file:=$(arg log_file)
+    wait_to_record_bag:=$(arg wait_to_record_bag)
+    mav_name:=$(arg mav_name)
+    namespace:=$(arg namespace)" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+	<arg name="world_name" value="$(arg world)"/>
+  <arg name="paused" value="false"/> 
+  <arg name="use_sim_time" value="true"/> 
+  <arg name="gui" value="true"/> 
+  <arg name="headless" value="false"/> 
+  <arg name="debug" value="false"/> 
+  <arg name="verbose" value="true"/>
+  </include>
+  
+  <param name="sensor_description" command="$(find xacro)/xacro --inorder $(arg livox_sensor)" />
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model firefly -param sensor_description" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rotors_description)/rviz/livox_simulation.rviz"/>
+</launch>
