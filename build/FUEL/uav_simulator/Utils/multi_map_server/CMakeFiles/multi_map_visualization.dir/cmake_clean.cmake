@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/multi_map_server/multi_map_visualization"
-  "/home/gjh/fuel/fuel/devel/lib/multi_map_server/multi_map_visualization.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/multi_map_server/multi_map_visualization"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/multi_map_server/multi_map_visualization.pdb"
   "CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o"
 )
 

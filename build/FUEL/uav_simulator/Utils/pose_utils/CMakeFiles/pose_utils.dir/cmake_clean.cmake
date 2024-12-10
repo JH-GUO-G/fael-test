@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libpose_utils.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libpose_utils.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libpose_utils.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libpose_utils.so"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
 )
 

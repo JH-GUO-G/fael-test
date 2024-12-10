@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/mav_system_msgs/msg/CpuInfo.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/mav_system_msgs/msg/ProcessInfo.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/mav_system_msgs/msg/CpuInfo.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/mav_system_msgs/msg/ProcessInfo.js"
   "CMakeFiles/mav_system_msgs_generate_messages_nodejs"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libdecode_msgs.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libdecode_msgs.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libdecode_msgs.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libdecode_msgs.so"
   "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
 )
 

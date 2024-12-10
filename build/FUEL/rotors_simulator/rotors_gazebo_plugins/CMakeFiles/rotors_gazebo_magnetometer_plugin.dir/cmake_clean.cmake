@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_magnetometer_plugin.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_magnetometer_plugin.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_magnetometer_plugin.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_magnetometer_plugin.so"
   "CMakeFiles/rotors_gazebo_magnetometer_plugin.dir/src/gazebo_magnetometer_plugin.cpp.o"
 )
 

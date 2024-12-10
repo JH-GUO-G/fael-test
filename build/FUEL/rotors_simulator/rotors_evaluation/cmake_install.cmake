@@ -1,8 +1,8 @@
-# Install script for directory: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_evaluation
+# Install script for directory: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_evaluation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gjh/fuel/fuel/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gjh/uav-ugv/fuel/fuel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/safe_execute_install.cmake")
+  include("/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_evaluation/cmake" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluationConfig.cmake"
-    "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluationConfig-version.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluationConfig.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/rotors_evaluationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_evaluation" TYPE FILE FILES "/home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_evaluation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rotors_evaluation" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_evaluation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/disturbance_eval.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/disturbance_eval.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/hovering_eval.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/hovering_eval.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/waypoints_eval.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rotors_evaluation" TYPE PROGRAM FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_evaluation/catkin_generated/installspace/waypoints_eval.py")
 endif()
 

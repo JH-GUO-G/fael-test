@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libplan_manage.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libplan_manage.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libplan_manage.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libplan_manage.so"
   "CMakeFiles/plan_manage.dir/src/planner_manager.cpp.o"
   "CMakeFiles/plan_manage.dir/src/planner_manager_dev.cpp.o"
 )

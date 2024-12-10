@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/exploration_manager/load_obj"
-  "/home/gjh/fuel/fuel/devel/lib/exploration_manager/load_obj.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/exploration_manager/load_obj"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/exploration_manager/load_obj.pdb"
   "CMakeFiles/load_obj.dir/test/load_obj.cpp.o"
 )
 

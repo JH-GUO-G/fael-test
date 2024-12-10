@@ -2,7 +2,7 @@
 
 message(STATUS "bspline: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ibspline:/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ibspline:/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(bspline_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_custom_target(_bspline_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_custom_target(_bspline_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" "geometry_msgs/Vector3"
 )
 
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_custom_target(_bspline_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" "geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "bspline" "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" "geometry_msgs/Vector3"
 )
 
 #
@@ -39,19 +39,19 @@ add_custom_target(_bspline_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/bspline
 )
 _generate_msg_cpp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/bspline
 )
 _generate_msg_cpp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/bspline
@@ -71,11 +71,11 @@ add_custom_target(bspline_generate_messages_cpp
 add_dependencies(bspline_generate_messages bspline_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_cpp _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_cpp _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_cpp _bspline_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,19 +88,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS bspline_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/bspline
 )
 _generate_msg_eus(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/bspline
 )
 _generate_msg_eus(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/bspline
@@ -120,11 +120,11 @@ add_custom_target(bspline_generate_messages_eus
 add_dependencies(bspline_generate_messages bspline_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_eus _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_eus _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_eus _bspline_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,19 +137,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS bspline_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/bspline
 )
 _generate_msg_lisp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/bspline
 )
 _generate_msg_lisp(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/bspline
@@ -169,11 +169,11 @@ add_custom_target(bspline_generate_messages_lisp
 add_dependencies(bspline_generate_messages bspline_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_lisp _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_lisp _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_lisp _bspline_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,19 +186,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS bspline_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/bspline
 )
 _generate_msg_nodejs(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/bspline
 )
 _generate_msg_nodejs(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/bspline
@@ -218,11 +218,11 @@ add_custom_target(bspline_generate_messages_nodejs
 add_dependencies(bspline_generate_messages bspline_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_nodejs _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_nodejs _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_nodejs _bspline_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,19 +235,19 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS bspline_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/bspline
 )
 _generate_msg_py(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/bspline
 )
 _generate_msg_py(bspline
-  "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/bspline
@@ -267,11 +267,11 @@ add_custom_target(bspline_generate_messages_py
 add_dependencies(bspline_generate_messages bspline_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_py _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_py _bspline_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
+get_filename_component(_filename "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg" NAME_WE)
 add_dependencies(bspline_generate_messages_py _bspline_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

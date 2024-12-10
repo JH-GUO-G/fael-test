@@ -67,14 +67,14 @@ set(rviz_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_plugins_SOURCE_PREFIX /home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/rviz_plugins)
-  set(rviz_plugins_DEVEL_PREFIX /home/gjh/fuel/fuel/devel)
+  set(rviz_plugins_SOURCE_PREFIX /home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/rviz_plugins)
+  set(rviz_plugins_DEVEL_PREFIX /home/gjh/uav-ugv/fuel/fuel/devel)
   set(rviz_plugins_INSTALL_PREFIX "")
   set(rviz_plugins_PREFIX ${rviz_plugins_DEVEL_PREFIX})
 else()
   set(rviz_plugins_SOURCE_PREFIX "")
   set(rviz_plugins_DEVEL_PREFIX "")
-  set(rviz_plugins_INSTALL_PREFIX /home/gjh/fuel/fuel/install)
+  set(rviz_plugins_INSTALL_PREFIX /home/gjh/uav-ugv/fuel/fuel/install)
   set(rviz_plugins_PREFIX ${rviz_plugins_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gjh/fuel/fuel/install/lib;/home/gjh/fuel/fuel/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/gjh/uav-ugv/fuel/fuel/install/lib;/home/gjh/uav-ugv/fuel/fuel/devel/lib;/home/gjh/fuel/fuel/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

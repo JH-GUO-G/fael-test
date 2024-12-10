@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/exploration_manager/write_tsp"
-  "/home/gjh/fuel/fuel/devel/lib/exploration_manager/write_tsp.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/exploration_manager/write_tsp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/exploration_manager/write_tsp.pdb"
   "CMakeFiles/write_tsp.dir/test/write_tsp.cpp.o"
 )
 

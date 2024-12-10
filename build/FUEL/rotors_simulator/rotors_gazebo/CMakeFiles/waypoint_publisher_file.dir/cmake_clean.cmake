@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/waypoint_publisher_file"
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/waypoint_publisher_file.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/waypoint_publisher_file"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/waypoint_publisher_file.pdb"
   "CMakeFiles/waypoint_publisher_file.dir/src/waypoint_publisher_file.cpp.o"
 )
 

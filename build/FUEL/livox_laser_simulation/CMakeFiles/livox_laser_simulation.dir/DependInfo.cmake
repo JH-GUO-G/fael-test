@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gjh/fuel/fuel/src/FUEL/livox_laser_simulation/src/livox_ode_multiray_shape.cpp" "/home/gjh/fuel/fuel/build/FUEL/livox_laser_simulation/CMakeFiles/livox_laser_simulation.dir/src/livox_ode_multiray_shape.cpp.o"
-  "/home/gjh/fuel/fuel/src/FUEL/livox_laser_simulation/src/livox_points_plugin.cpp" "/home/gjh/fuel/fuel/build/FUEL/livox_laser_simulation/CMakeFiles/livox_laser_simulation.dir/src/livox_points_plugin.cpp.o"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/livox_laser_simulation/src/livox_ode_multiray_shape.cpp" "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/livox_laser_simulation/CMakeFiles/livox_laser_simulation.dir/src/livox_ode_multiray_shape.cpp.o"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/livox_laser_simulation/src/livox_points_plugin.cpp" "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/livox_laser_simulation/CMakeFiles/livox_laser_simulation.dir/src/livox_points_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,7 +35,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/ignition/common3"
   "/usr/include/ignition/fuel_tools4"
   "/usr/include/gazebo-7/gazebo"
-  "/home/gjh/fuel/fuel/src/FUEL/livox_laser_simulation/include"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/livox_laser_simulation/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

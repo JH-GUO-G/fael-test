@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libtraj_utils.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libtraj_utils.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libtraj_utils.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libtraj_utils.so"
   "CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o"
 )
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/MultiOccupancyGrid.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/MultiSparseMap3D.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/SparseMap3D.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/VerticalOccupancyGridList.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/MultiOccupancyGrid.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/MultiSparseMap3D.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/SparseMap3D.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/multi_map_server/msg/VerticalOccupancyGridList.js"
   "CMakeFiles/multi_map_server_generate_messages_nodejs"
 )
 

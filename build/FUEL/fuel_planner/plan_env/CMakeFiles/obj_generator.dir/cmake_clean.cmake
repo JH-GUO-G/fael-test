@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/plan_env/obj_generator"
-  "/home/gjh/fuel/fuel/devel/lib/plan_env/obj_generator.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_env/obj_generator"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_env/obj_generator.pdb"
   "CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o"
 )
 

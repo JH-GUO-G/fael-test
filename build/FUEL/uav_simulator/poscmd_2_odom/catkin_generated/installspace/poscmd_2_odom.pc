@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/install
+prefix=/home/gjh/uav-ugv/fuel/fuel/install
 
 Name: poscmd_2_odom
 Description: Description of poscmd_2_odom

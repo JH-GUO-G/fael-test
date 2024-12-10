@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/mav_system_msgs/msg/CpuInfo.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/mav_system_msgs/msg/ProcessInfo.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/mav_system_msgs/msg/CpuInfo.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/mav_system_msgs/msg/ProcessInfo.lisp"
   "CMakeFiles/mav_system_msgs_generate_messages_lisp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_cpp"
 )
 

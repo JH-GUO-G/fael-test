@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libmav_msgs.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so"
   "Actuators.pb.cc"
   "Actuators.pb.h"
   "CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_controller_interface.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_controller_interface.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_controller_interface.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_controller_interface.so"
   "CMakeFiles/rotors_gazebo_controller_interface.dir/src/gazebo_controller_interface.cpp.o"
 )
 

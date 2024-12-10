@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/bspline/manifest.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/bspline/msg/Bspline.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/bspline/msg/TrajectoryInfo.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/bspline/msg/replaninfo.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/bspline/manifest.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/bspline/msg/Bspline.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/bspline/msg/TrajectoryInfo.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/bspline/msg/replaninfo.l"
   "CMakeFiles/bspline_generate_messages_eus"
 )
 

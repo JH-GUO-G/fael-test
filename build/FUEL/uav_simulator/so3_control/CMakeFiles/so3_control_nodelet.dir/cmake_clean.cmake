@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libso3_control_nodelet.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libso3_control_nodelet.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libso3_control_nodelet.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libso3_control_nodelet.so"
   "CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
 )
 

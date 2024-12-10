@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/Actuators.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/AttitudeThrust.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/FilteredSensorData.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/GpsWaypoint.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/RateThrust.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/RollPitchYawrateThrust.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/Status.h"
-  "/home/gjh/fuel/fuel/devel/include/mav_msgs/TorqueThrust.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/Actuators.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/AttitudeThrust.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/FilteredSensorData.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/GpsWaypoint.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/RateThrust.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/RollPitchYawrateThrust.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/Status.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_msgs/TorqueThrust.h"
   "CMakeFiles/mav_msgs_generate_messages_cpp"
 )
 

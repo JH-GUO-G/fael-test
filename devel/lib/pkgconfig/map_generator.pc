@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: map_generator
 Description: Description of map_generator

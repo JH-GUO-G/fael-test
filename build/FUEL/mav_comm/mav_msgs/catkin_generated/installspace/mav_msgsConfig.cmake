@@ -67,14 +67,14 @@ set(mav_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mav_msgs_SOURCE_PREFIX /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_msgs)
-  set(mav_msgs_DEVEL_PREFIX /home/gjh/fuel/fuel/devel)
+  set(mav_msgs_SOURCE_PREFIX /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_msgs)
+  set(mav_msgs_DEVEL_PREFIX /home/gjh/uav-ugv/fuel/fuel/devel)
   set(mav_msgs_INSTALL_PREFIX "")
   set(mav_msgs_PREFIX ${mav_msgs_DEVEL_PREFIX})
 else()
   set(mav_msgs_SOURCE_PREFIX "")
   set(mav_msgs_DEVEL_PREFIX "")
-  set(mav_msgs_INSTALL_PREFIX /home/gjh/fuel/fuel/install)
+  set(mav_msgs_INSTALL_PREFIX /home/gjh/uav-ugv/fuel/fuel/install)
   set(mav_msgs_PREFIX ${mav_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/gjh/fuel/fuel/install/lib;/home/gjh/fuel/fuel/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/gjh/uav-ugv/fuel/fuel/install/lib;/home/gjh/uav-ugv/fuel/fuel/devel/lib;/home/gjh/fuel/fuel/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

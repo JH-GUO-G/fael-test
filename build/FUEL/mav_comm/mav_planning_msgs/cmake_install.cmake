@@ -1,8 +1,8 @@
-# Install script for directory: /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs
+# Install script for directory: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gjh/fuel/fuel/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gjh/uav-ugv/fuel/fuel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,70 +39,70 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/msg" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/Point2D.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PointCloudWithPose.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/Polygon2D.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolygonWithHoles.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/Point2D.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PointCloudWithPose.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/Polygon2D.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolygonWithHoles.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolygonWithHolesStamped.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialSegment.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialSegment4D.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/msg/PolynomialTrajectory4D.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/srv" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/PlannerService.srv"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
-    "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/PlannerService.srv"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/PolygonService.srv"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/srv/ChangeNameService.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/include/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/roseus/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_planning_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_planning_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_planning_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs/cmake" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig.cmake"
-    "/home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig-version.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_planning_msgs/catkin_generated/installspace/mav_planning_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs" TYPE FILE FILES "/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mav_planning_msgs" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_planning_msgs/package.xml")
 endif()
 

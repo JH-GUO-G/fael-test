@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/msg/WindSpeed.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/srv/Octomap.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/srv/RecordRosbag.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/msg/WindSpeed.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/srv/Octomap.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/rotors_comm/srv/RecordRosbag.lisp"
   "CMakeFiles/rotors_comm_generate_messages_lisp"
 )
 

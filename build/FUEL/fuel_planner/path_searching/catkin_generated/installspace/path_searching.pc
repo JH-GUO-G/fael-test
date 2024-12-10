@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/install
+prefix=/home/gjh/uav-ugv/fuel/fuel/install
 
 Name: path_searching
 Description: Description of path_searching

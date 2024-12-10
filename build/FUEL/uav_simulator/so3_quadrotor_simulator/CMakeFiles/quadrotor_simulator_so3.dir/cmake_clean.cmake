@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
-  "/home/gjh/fuel/fuel/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
   "CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o"
 )
 

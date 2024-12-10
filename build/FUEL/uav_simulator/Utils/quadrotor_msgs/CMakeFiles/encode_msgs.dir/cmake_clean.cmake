@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libencode_msgs.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libencode_msgs.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libencode_msgs.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libencode_msgs.so"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/click_map"
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/click_map.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/click_map"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/click_map.pdb"
   "CMakeFiles/click_map.dir/src/click_map.cpp.o"
 )
 

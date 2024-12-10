@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG
 
 C_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"lkh_tsp_solver\"
 
-C_INCLUDES = -isystem /home/gjh/fuel/fuel/src/FUEL/fuel_planner/utils/lkh_tsp_solver/include 
+C_INCLUDES = -isystem /home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/utils/lkh_tsp_solver/include 
 

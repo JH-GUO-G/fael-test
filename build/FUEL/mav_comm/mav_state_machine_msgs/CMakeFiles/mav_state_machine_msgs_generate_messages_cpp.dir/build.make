@@ -43,37 +43,37 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 # Utility rule file for mav_state_machine_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/progress.make
 
-FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp: /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h
-FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp: /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h
+FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp: /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h
+FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp: /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h
 
 
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from mav_state_machine_msgs/StartStopTask.msg"
-	cd /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs && /home/gjh/fuel/fuel/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg -Imav_state_machine_msgs:/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from mav_state_machine_msgs/StartStopTask.msg"
+	cd /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs && /home/gjh/uav-ugv/fuel/fuel/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg/StartStopTask.msg -Imav_state_machine_msgs:/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from mav_state_machine_msgs/RunTaskService.srv"
-	cd /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs && /home/gjh/fuel/fuel/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv -Imav_state_machine_msgs:/home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from mav_state_machine_msgs/RunTaskService.srv"
+	cd /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs && /home/gjh/uav-ugv/fuel/fuel/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/srv/RunTaskService.srv -Imav_state_machine_msgs:/home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p mav_state_machine_msgs -o /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 mav_state_machine_msgs_generate_messages_cpp: FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp
-mav_state_machine_msgs_generate_messages_cpp: /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h
-mav_state_machine_msgs_generate_messages_cpp: /home/gjh/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h
+mav_state_machine_msgs_generate_messages_cpp: /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/StartStopTask.h
+mav_state_machine_msgs_generate_messages_cpp: /home/gjh/uav-ugv/fuel/fuel/devel/include/mav_state_machine_msgs/RunTaskService.h
 mav_state_machine_msgs_generate_messages_cpp: FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : mav_state_machine_msgs_generate_messages_cpp
@@ -84,10 +84,10 @@ FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_
 .PHONY : FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/build
 
 FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/clean:
-	cd /home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs && $(CMAKE_COMMAND) -P CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs && $(CMAKE_COMMAND) -P CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/clean
 
 FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/depend:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/fuel/fuel/src /home/gjh/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs /home/gjh/fuel/fuel/build /home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs /home/gjh/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/uav-ugv/fuel/fuel/src /home/gjh/uav-ugv/fuel/fuel/src/FUEL/mav_comm/mav_state_machine_msgs /home/gjh/uav-ugv/fuel/fuel/build /home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs /home/gjh/uav-ugv/fuel/fuel/build/FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : FUEL/mav_comm/mav_state_machine_msgs/CMakeFiles/mav_state_machine_msgs_generate_messages_cpp.dir/depend
 

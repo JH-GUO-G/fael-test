@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/map_recorder"
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/map_recorder.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/map_recorder"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/map_recorder.pdb"
   "CMakeFiles/map_recorder.dir/src/map_recorder.cpp.o"
 )
 

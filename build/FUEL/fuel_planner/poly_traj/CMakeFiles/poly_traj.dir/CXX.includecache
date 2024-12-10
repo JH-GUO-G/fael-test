@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h
 Eigen/Eigen
 -
 vector
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/poly_traj/src/polynomial_traj.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/poly_traj/src/polynomial_traj.cpp
 iostream
 -
 poly_traj/polynomial_traj.h

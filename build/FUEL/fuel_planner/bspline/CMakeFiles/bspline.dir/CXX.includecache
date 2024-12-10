@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
 Eigen/Eigen
 -
 algorithm
@@ -14,9 +14,9 @@ algorithm
 iostream
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/src/non_uniform_bspline.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/src/non_uniform_bspline.cpp
 bspline/non_uniform_bspline.h
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/src/bspline/non_uniform_bspline.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/src/bspline/non_uniform_bspline.h
 ros/ros.h
 -
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/include/rotors_comm/Octomap.h"
-  "/home/gjh/fuel/fuel/devel/include/rotors_comm/RecordRosbag.h"
-  "/home/gjh/fuel/fuel/devel/include/rotors_comm/WindSpeed.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/rotors_comm/Octomap.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/rotors_comm/RecordRosbag.h"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include/rotors_comm/WindSpeed.h"
   "CMakeFiles/rotors_comm_generate_messages_cpp"
 )
 

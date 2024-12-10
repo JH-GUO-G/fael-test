@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/install
+prefix=/home/gjh/uav-ugv/fuel/fuel/install
 
 Name: rviz_plugins
 Description: Description of rviz_plugins

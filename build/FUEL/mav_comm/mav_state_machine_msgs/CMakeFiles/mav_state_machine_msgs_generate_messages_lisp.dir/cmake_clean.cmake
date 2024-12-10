@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/mav_state_machine_msgs/msg/StartStopTask.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/mav_state_machine_msgs/srv/RunTaskService.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/mav_state_machine_msgs/msg/StartStopTask.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/mav_state_machine_msgs/srv/RunTaskService.lisp"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_lisp"
 )
 

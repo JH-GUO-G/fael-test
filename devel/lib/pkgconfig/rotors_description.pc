@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: rotors_description
 Description: Description of rotors_description

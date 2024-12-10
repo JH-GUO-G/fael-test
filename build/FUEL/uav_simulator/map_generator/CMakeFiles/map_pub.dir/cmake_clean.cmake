@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/map_pub"
-  "/home/gjh/fuel/fuel/devel/lib/map_generator/map_pub.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/map_pub"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/map_generator/map_pub.pdb"
   "CMakeFiles/map_pub.dir/src/map_publisher.cpp.o"
 )
 

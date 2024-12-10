@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -140,14 +140,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/fuel/fuel/build/CMakeFiles /home/gjh/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/progress.marks
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/fuel/fuel/build/CMakeFiles 0
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles /home/gjh/uav-ugv/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/progress.marks
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/clean
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,22 +157,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/preinstall
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/preinstall
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/rule:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/rule
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/rule
 .PHONY : FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ waypoint_generator: FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypo
 
 # fast build rule for target.
 waypoint_generator/fast:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build
 .PHONY : waypoint_generator/fast
 
 src/waypoint_generator.o: src/waypoint_generator.cpp.o
@@ -191,7 +191,7 @@ src/waypoint_generator.o: src/waypoint_generator.cpp.o
 
 # target to build an object file
 src/waypoint_generator.cpp.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o
 .PHONY : src/waypoint_generator.cpp.o
 
 src/waypoint_generator.i: src/waypoint_generator.cpp.i
@@ -200,7 +200,7 @@ src/waypoint_generator.i: src/waypoint_generator.cpp.i
 
 # target to preprocess a source file
 src/waypoint_generator.cpp.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.i
 .PHONY : src/waypoint_generator.cpp.i
 
 src/waypoint_generator.s: src/waypoint_generator.cpp.s
@@ -209,7 +209,7 @@ src/waypoint_generator.s: src/waypoint_generator.cpp.s
 
 # target to generate assembly for a file
 src/waypoint_generator.cpp.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/build.make FUEL/uav_simulator/Utils/waypoint_generator/CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.s
 .PHONY : src/waypoint_generator.cpp.s
 
 # Help Target
@@ -240,6 +240,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

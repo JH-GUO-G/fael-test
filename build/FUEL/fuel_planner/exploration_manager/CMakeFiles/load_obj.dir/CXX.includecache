@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/exploration_manager/test/load_obj.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/exploration_manager/test/load_obj.cpp
 iostream
 -
 ros/ros.h

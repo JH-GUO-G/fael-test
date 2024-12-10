@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/install
+prefix=/home/gjh/uav-ugv/fuel/fuel/install
 
 Name: traj_utils
 Description: Description of traj_utils

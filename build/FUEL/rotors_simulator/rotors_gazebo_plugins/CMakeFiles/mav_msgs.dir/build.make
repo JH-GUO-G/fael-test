@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 # Include any dependencies generated for this target.
 include FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend.make
@@ -57,635 +57,635 @@ include FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/prog
 # Include the compile flags for this target's objects.
 include FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Actuators.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/CommandMotorSpeed.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectGazeboToRosTopic.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/ConnectRosToGazeboTopic.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Float32.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/FluidPressure.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Header.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Imu.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/JointState.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Lidar.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/MagneticField.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/NavSatFix.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Odometry.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/OpticalFlow.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Point.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PointStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovariance.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/PoseWithCovarianceStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/RollPitchYawrateThrust.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Transform.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TransformStampedWithFrameIds.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Twist.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/TwistWithCovariance.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Vector3dStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WindSpeed.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/Wrench.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc
 
-FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.h: /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.h: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running cpp protocol buffer compiler on /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Running cpp protocol buffer compiler on /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/protoc --cpp_out /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins -I /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs -I /usr/include/gazebo-11/gazebo/msgs/proto /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins/msgs/WrenchStamped.proto
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc: FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc > CMakeFiles/mav_msgs.dir/Actuators.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.cc -o CMakeFiles/mav_msgs.dir/Actuators.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc > CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CommandMotorSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectGazeboToRosTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc > CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/ConnectRosToGazeboTopic.pb.cc -o CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Float32.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc > CMakeFiles/mav_msgs.dir/Float32.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Float32.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Float32.pb.cc -o CMakeFiles/mav_msgs.dir/Float32.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc > CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/FluidPressure.pb.cc -o CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Header.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Header.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc > CMakeFiles/mav_msgs.dir/Header.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Header.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Header.pb.cc -o CMakeFiles/mav_msgs.dir/Header.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Imu.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc > CMakeFiles/mav_msgs.dir/Imu.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Imu.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Imu.pb.cc -o CMakeFiles/mav_msgs.dir/Imu.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/JointState.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc > CMakeFiles/mav_msgs.dir/JointState.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/JointState.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/JointState.pb.cc -o CMakeFiles/mav_msgs.dir/JointState.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc > CMakeFiles/mav_msgs.dir/Lidar.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Lidar.pb.cc -o CMakeFiles/mav_msgs.dir/Lidar.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc > CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/MagneticField.pb.cc -o CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc > CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/NavSatFix.pb.cc -o CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc > CMakeFiles/mav_msgs.dir/Odometry.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Odometry.pb.cc -o CMakeFiles/mav_msgs.dir/Odometry.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc > CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/OpticalFlow.pb.cc -o CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Point.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Point.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc > CMakeFiles/mav_msgs.dir/Point.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Point.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Point.pb.cc -o CMakeFiles/mav_msgs.dir/Point.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc > CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PointStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc > CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/PoseWithCovarianceStamped.pb.cc -o CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc > CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/RollPitchYawrateThrust.pb.cc -o CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Transform.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc > CMakeFiles/mav_msgs.dir/Transform.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Transform.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Transform.pb.cc -o CMakeFiles/mav_msgs.dir/Transform.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc > CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc > CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TransformStampedWithFrameIds.pb.cc -o CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Twist.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc > CMakeFiles/mav_msgs.dir/Twist.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Twist.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Twist.pb.cc -o CMakeFiles/mav_msgs.dir/Twist.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc > CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistStamped.pb.cc -o CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc > CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/TwistWithCovariance.pb.cc -o CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc > CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Vector3dStamped.pb.cc -o CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc > CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WindSpeed.pb.cc -o CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc > CMakeFiles/mav_msgs.dir/Wrench.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc -o CMakeFiles/mav_msgs.dir/Wrench.pb.cc.s
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/flags.make
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o: FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o -c /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc > CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.i
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc -o CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.s
 
 # Object files for target mav_msgs
 mav_msgs_OBJECTS = \
@@ -723,49 +723,49 @@ mav_msgs_OBJECTS = \
 # External object files for target mav_msgs
 mav_msgs_EXTERNAL_OBJECTS =
 
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/gjh/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gjh/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library /home/gjh/fuel/fuel/devel/lib/libmav_msgs.so"
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mav_msgs.dir/link.txt --verbose=$(VERBOSE)
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Actuators.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/CommandMotorSpeed.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectGazeboToRosTopic.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/ConnectRosToGazeboTopic.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Float32.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/FluidPressure.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Header.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Imu.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/JointState.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Lidar.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/MagneticField.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/NavSatFix.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Odometry.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/OpticalFlow.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Point.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PointStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovariance.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/PoseWithCovarianceStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/RollPitchYawrateThrust.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Transform.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TransformStampedWithFrameIds.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Twist.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/TwistWithCovariance.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Vector3dStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WindSpeed.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/Wrench.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/WrenchStamped.pb.cc.o
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build.make
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so: FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Linking CXX shared library /home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so"
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mav_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build: /home/gjh/fuel/fuel/devel/lib/libmav_msgs.so
+FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build: /home/gjh/uav-ugv/fuel/fuel/devel/lib/libmav_msgs.so
 
 .PHONY : FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/build
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/clean:
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/mav_msgs.dir/cmake_clean.cmake
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins && $(CMAKE_COMMAND) -P CMakeFiles/mav_msgs.dir/cmake_clean.cmake
 .PHONY : FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/clean
 
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend: FUEL/rotors_simulator/rotors_gazebo_plugins/Actuators.pb.h
@@ -828,6 +828,6 @@ FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend: FUEL
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend: FUEL/rotors_simulator/rotors_gazebo_plugins/Wrench.pb.cc
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend: FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.h
 FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend: FUEL/rotors_simulator/rotors_gazebo_plugins/WrenchStamped.pb.cc
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/fuel/fuel/src /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins /home/gjh/fuel/fuel/build /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/uav-ugv/fuel/fuel/src /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo_plugins /home/gjh/uav-ugv/fuel/fuel/build /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : FUEL/rotors_simulator/rotors_gazebo_plugins/CMakeFiles/mav_msgs.dir/depend
 

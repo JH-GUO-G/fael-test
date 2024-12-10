@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/active_perception/include/active_perception/traj_visibility.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/active_perception/include/active_perception/traj_visibility.h
 plan_env/edt_environment.h
 -
 unordered_map
@@ -16,7 +16,7 @@ utility
 bspline/non_uniform_bspline.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
 Eigen/Eigen
 -
 algorithm
@@ -24,13 +24,13 @@ algorithm
 iostream
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/path_searching/include/path_searching/topo_prm.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/path_searching/include/path_searching/topo_prm.h
 plan_env/edt_environment.h
 -
 random
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/edt_environment.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/edt_environment.h
 Eigen/Eigen
 -
 iostream
@@ -40,7 +40,7 @@ utility
 plan_env/obj_predictor.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/obj_predictor.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/obj_predictor.h
 Eigen/Eigen
 -
 algorithm
@@ -56,13 +56,13 @@ ros/ros.h
 visualization_msgs/Marker.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h
 Eigen/Eigen
 -
 vector
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/traj_utils/include/traj_utils/planning_visualization.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/traj_utils/include/traj_utils/planning_visualization.h
 Eigen/Eigen
 -
 algorithm
@@ -86,7 +86,7 @@ visualization_msgs/Marker.h
 active_perception/traj_visibility.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/traj_utils/src/planning_visualization.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/traj_utils/src/planning_visualization.cpp
 traj_utils/planning_visualization.h
 -
 

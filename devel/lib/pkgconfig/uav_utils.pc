@@ -1,8 +1,8 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: uav_utils
 Description: Description of uav_utils
 Version: 0.0.0
-Cflags: -I/home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/uav_utils/include
+Cflags: -I/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/uav_utils/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy

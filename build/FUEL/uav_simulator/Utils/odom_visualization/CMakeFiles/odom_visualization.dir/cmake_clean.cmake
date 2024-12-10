@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/odom_visualization/odom_visualization"
-  "/home/gjh/fuel/fuel/devel/lib/odom_visualization/odom_visualization.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/odom_visualization/odom_visualization"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/odom_visualization/odom_visualization.pdb"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o"
 )
 

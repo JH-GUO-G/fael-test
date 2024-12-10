@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libroll_pitch_yawrate_thrust_controller.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libroll_pitch_yawrate_thrust_controller.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libroll_pitch_yawrate_thrust_controller.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libroll_pitch_yawrate_thrust_controller.so"
   "CMakeFiles/roll_pitch_yawrate_thrust_controller.dir/src/library/roll_pitch_yawrate_thrust_controller.cpp.o"
 )
 

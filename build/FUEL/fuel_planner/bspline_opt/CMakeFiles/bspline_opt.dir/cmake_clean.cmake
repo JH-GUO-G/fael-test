@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libbspline_opt.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libbspline_opt.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libbspline_opt.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libbspline_opt.so"
   "CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o"
 )
 

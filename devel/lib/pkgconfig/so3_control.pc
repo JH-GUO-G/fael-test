@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: so3_control
 Description: Description of so3_control

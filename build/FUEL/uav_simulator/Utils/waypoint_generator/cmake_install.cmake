@@ -1,8 +1,8 @@
-# Install script for directory: /home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/waypoint_generator
+# Install script for directory: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/waypoint_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gjh/fuel/fuel/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gjh/uav-ugv/fuel/fuel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator/cmake" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig.cmake"
-    "/home/gjh/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig-version.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/uav_simulator/Utils/waypoint_generator/catkin_generated/installspace/waypoint_generatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator" TYPE FILE FILES "/home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/waypoint_generator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/waypoint_generator" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/waypoint_generator/package.xml")
 endif()
 

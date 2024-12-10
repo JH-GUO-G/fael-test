@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libSO3Control.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libSO3Control.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libSO3Control.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libSO3Control.so"
   "CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
 )
 

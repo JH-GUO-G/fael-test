@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/install
+prefix=/home/gjh/uav-ugv/fuel/fuel/install
 
 Name: mav_state_machine_msgs
 Description: Description of mav_state_machine_msgs

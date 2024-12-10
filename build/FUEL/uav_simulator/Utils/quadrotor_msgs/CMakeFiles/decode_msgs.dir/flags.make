@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"quadrotor_msgs\" -Ddecode_msgs_EXPORTS
 
-CXX_INCLUDES = -I/home/gjh/fuel/fuel/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/gjh/uav-ugv/fuel/fuel/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/quadrotor_msgs/include -I/usr/include/eigen3 
 

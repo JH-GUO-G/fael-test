@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/active_perception/include/active_perception/traj_visibility.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/active_perception/include/active_perception/traj_visibility.h
 plan_env/edt_environment.h
 -
 unordered_map
@@ -16,7 +16,7 @@ utility
 bspline/non_uniform_bspline.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/include/bspline/non_uniform_bspline.h
 Eigen/Eigen
 -
 algorithm
@@ -24,7 +24,7 @@ algorithm
 iostream
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/include/bspline_opt/bspline_optimizer.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/include/bspline_opt/bspline_optimizer.h
 Eigen/Eigen
 -
 active_perception/traj_visibility.h
@@ -32,9 +32,9 @@ active_perception/traj_visibility.h
 ros/ros.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp
 bspline_opt/bspline_optimizer.h
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/src/bspline_opt/bspline_optimizer.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/src/bspline_opt/bspline_optimizer.h
 plan_env/edt_environment.h
 -
 plan_env/sdf_map.h
@@ -44,7 +44,7 @@ thread
 nlopt.hpp
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/edt_environment.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/edt_environment.h
 Eigen/Eigen
 -
 iostream
@@ -54,7 +54,7 @@ utility
 plan_env/obj_predictor.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/obj_predictor.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/obj_predictor.h
 Eigen/Eigen
 -
 algorithm
@@ -70,7 +70,7 @@ ros/ros.h
 visualization_msgs/Marker.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/sdf_map.h
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_env/include/plan_env/sdf_map.h
 Eigen/Eigen
 -
 Eigen/StdVector

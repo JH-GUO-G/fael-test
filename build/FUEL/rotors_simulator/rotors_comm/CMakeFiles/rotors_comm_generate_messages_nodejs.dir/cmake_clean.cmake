@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/msg/WindSpeed.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/srv/Octomap.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/rotors_comm/srv/RecordRosbag.js"
   "CMakeFiles/rotors_comm_generate_messages_nodejs"
 )
 

@@ -80,7 +80,7 @@
   </node>
 
   <!-- use simulator -->
-  <!-- <include file="$(find exploration_manager)/launch/rotors_simulator.xml"> -->
+  <include file="$(find exploration_manager)/launch/rotors_simulator.xml"/>
   <!-- <include file="$(find exploration_manager)/launch/simulator.xml">
     <arg name="map_size_x_" value="$(arg map_size_x)"/>
     <arg name="map_size_y_" value="$(arg map_size_y)"/>

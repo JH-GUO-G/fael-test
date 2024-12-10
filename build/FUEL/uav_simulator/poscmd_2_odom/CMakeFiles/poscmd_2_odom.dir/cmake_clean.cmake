@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/poscmd_2_odom/poscmd_2_odom"
-  "/home/gjh/fuel/fuel/devel/lib/poscmd_2_odom/poscmd_2_odom.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/poscmd_2_odom/poscmd_2_odom"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/poscmd_2_odom/poscmd_2_odom.pdb"
   "CMakeFiles/poscmd_2_odom.dir/src/poscmd_2_odom.cpp.o"
 )
 

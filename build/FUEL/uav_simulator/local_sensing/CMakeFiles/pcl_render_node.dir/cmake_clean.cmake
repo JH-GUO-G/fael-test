@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/local_sensing_node/pcl_render_node"
-  "/home/gjh/fuel/fuel/devel/lib/local_sensing_node/pcl_render_node.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/local_sensing_node/pcl_render_node"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/local_sensing_node/pcl_render_node.pdb"
   "CMakeFiles/pcl_render_node.dir/src/depth_render_node.cpp.o"
 )
 

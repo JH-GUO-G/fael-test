@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/liblkh_tsp_solver.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/liblkh_tsp_solver.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/liblkh_tsp_solver.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/liblkh_tsp_solver.so"
   "CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.o"
   "CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.o"
   "CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.o"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_manage
+# Install script for directory: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_manage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gjh/fuel/fuel/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gjh/uav-ugv/fuel/fuel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manage.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manage.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_manage/cmake" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manageConfig.cmake"
-    "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manageConfig-version.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manageConfig.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/plan_manage/catkin_generated/installspace/plan_manageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_manage" TYPE FILE FILES "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_manage/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_manage" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_manage/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/run_circle_locus"
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/run_circle_locus.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/run_circle_locus"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/run_circle_locus.pdb"
   "CMakeFiles/run_circle_locus.dir/src/run_circle_locus.cpp.o"
 )
 

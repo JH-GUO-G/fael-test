@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/msg/_StartStopTask.py"
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/msg/__init__.py"
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/srv/_RunTaskService.py"
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/srv/__init__.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/msg/_StartStopTask.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/msg/__init__.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/srv/_RunTaskService.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_state_machine_msgs/srv/__init__.py"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_py"
 )
 

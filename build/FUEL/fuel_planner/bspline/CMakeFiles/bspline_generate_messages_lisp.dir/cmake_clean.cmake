@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/Bspline.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/TrajectoryInfo.lisp"
-  "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/replaninfo.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/Bspline.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/TrajectoryInfo.lisp"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/bspline/msg/replaninfo.lisp"
   "CMakeFiles/bspline_generate_messages_lisp"
 )
 

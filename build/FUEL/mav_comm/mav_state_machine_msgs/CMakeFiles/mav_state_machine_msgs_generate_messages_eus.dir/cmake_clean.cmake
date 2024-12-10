@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/manifest.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/manifest.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/msg/StartStopTask.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/mav_state_machine_msgs/srv/RunTaskService.l"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_eus"
 )
 

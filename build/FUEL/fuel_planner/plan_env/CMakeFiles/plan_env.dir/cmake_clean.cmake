@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libplan_env.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libplan_env.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libplan_env.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libplan_env.so"
   "CMakeFiles/plan_env.dir/src/edt_environment.cpp.o"
   "CMakeFiles/plan_env.dir/src/map_ros.cpp.o"
   "CMakeFiles/plan_env.dir/src/obj_predictor.cpp.o"

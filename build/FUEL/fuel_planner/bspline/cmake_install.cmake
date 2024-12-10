@@ -1,8 +1,8 @@
-# Install script for directory: /home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline
+# Install script for directory: /home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gjh/fuel/fuel/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gjh/uav-ugv/fuel/fuel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,56 +39,56 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/msg" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
-    "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/Bspline.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/TrajectoryInfo.msg"
+    "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/msg/replaninfo.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/include/bspline")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/include/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/roseus/ros/bspline")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/common-lisp/ros/bspline")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/common-lisp/ros/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/bspline")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/bspline")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/bspline")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/bspline")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bspline-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES
-    "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bsplineConfig.cmake"
-    "/home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bsplineConfig-version.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bsplineConfig.cmake"
+    "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/catkin_generated/installspace/bsplineConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline" TYPE FILE FILES "/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline" TYPE FILE FILES "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline/package.xml")
 endif()
 

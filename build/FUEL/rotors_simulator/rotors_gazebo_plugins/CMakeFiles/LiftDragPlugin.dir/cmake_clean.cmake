@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libLiftDragPlugin.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libLiftDragPlugin.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libLiftDragPlugin.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libLiftDragPlugin.so"
   "CMakeFiles/LiftDragPlugin.dir/src/liftdrag_plugin/liftdrag_plugin.cpp.o"
 )
 

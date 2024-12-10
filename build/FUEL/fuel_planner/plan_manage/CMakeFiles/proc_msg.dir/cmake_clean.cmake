@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/plan_manage/proc_msg"
-  "/home/gjh/fuel/fuel/devel/lib/plan_manage/proc_msg.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_manage/proc_msg"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_manage/proc_msg.pdb"
   "CMakeFiles/proc_msg.dir/test/process_msg.cpp.o"
 )
 

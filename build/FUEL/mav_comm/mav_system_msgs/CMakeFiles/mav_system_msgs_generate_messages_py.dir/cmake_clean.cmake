@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/_CpuInfo.py"
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/_ProcessInfo.py"
-  "/home/gjh/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/__init__.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/_CpuInfo.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/_ProcessInfo.py"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/python3/dist-packages/mav_system_msgs/msg/__init__.py"
   "CMakeFiles/mav_system_msgs_generate_messages_py"
 )
 

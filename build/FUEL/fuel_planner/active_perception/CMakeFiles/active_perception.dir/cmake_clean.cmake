@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libactive_perception.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libactive_perception.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libactive_perception.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libactive_perception.so"
   "CMakeFiles/active_perception.dir/src/frontier_finder.cpp.o"
   "CMakeFiles/active_perception.dir/src/graph_node.cpp.o"
   "CMakeFiles/active_perception.dir/src/heading_planner.cpp.o"

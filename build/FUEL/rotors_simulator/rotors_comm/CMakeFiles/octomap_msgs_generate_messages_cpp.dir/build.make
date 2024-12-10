@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 # Utility rule file for octomap_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.
 .PHONY : FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
 
 FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/clean:
-	cd /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm && $(CMAKE_COMMAND) -P CMakeFiles/octomap_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/clean
 
 FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/depend:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/fuel/fuel/src /home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_comm /home/gjh/fuel/fuel/build /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm /home/gjh/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/uav-ugv/fuel/fuel/src /home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_comm /home/gjh/uav-ugv/fuel/fuel/build /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm /home/gjh/uav-ugv/fuel/fuel/build/FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : FUEL/rotors_simulator/rotors_comm/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/libquadrotor_dynamics.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/libquadrotor_dynamics.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libquadrotor_dynamics.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/libquadrotor_dynamics.so"
   "CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/uav_utils/uav_utils-test"
-  "/home/gjh/fuel/fuel/devel/lib/uav_utils/uav_utils-test.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/uav_utils/uav_utils-test"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/uav_utils/uav_utils-test.pdb"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o"
 )
 

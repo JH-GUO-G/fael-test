@@ -1,4 +1,4 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: cmake_utils
 Description: Description of cmake_utils

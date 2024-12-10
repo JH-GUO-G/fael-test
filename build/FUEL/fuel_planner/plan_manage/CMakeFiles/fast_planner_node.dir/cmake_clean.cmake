@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/plan_manage/fast_planner_node"
-  "/home/gjh/fuel/fuel/devel/lib/plan_manage/fast_planner_node.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_manage/fast_planner_node"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/plan_manage/fast_planner_node.pdb"
   "CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o"
   "CMakeFiles/fast_planner_node.dir/src/kino_replan_fsm.cpp.o"
   "CMakeFiles/fast_planner_node.dir/src/planner_manager.cpp.o"

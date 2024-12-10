@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++14 -O3 -Wall -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"poly_traj\" -Dpoly_traj_EXPORTS
 
-CXX_INCLUDES = -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/gjh/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/poly_traj/include -I/usr/include/eigen3 
 

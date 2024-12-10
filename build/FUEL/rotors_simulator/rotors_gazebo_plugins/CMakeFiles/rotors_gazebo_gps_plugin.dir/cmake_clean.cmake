@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_gps_plugin.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/librotors_gazebo_gps_plugin.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_gps_plugin.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/librotors_gazebo_gps_plugin.so"
   "CMakeFiles/rotors_gazebo_gps_plugin.dir/src/gazebo_gps_plugin.cpp.o"
 )
 

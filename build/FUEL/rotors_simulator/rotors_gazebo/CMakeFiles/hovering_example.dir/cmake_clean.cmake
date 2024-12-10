@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/hovering_example"
-  "/home/gjh/fuel/fuel/devel/lib/rotors_gazebo/hovering_example.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/hovering_example"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_gazebo/hovering_example.pdb"
   "CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/mav_state_machine_msgs/msg/StartStopTask.js"
-  "/home/gjh/fuel/fuel/devel/share/gennodejs/ros/mav_state_machine_msgs/srv/RunTaskService.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/mav_state_machine_msgs/msg/StartStopTask.js"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/gennodejs/ros/mav_state_machine_msgs/srv/RunTaskService.js"
   "CMakeFiles/mav_state_machine_msgs_generate_messages_nodejs"
 )
 

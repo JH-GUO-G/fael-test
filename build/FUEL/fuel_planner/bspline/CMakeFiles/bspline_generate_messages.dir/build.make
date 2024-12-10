@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 # Utility rule file for bspline_generate_messages.
 
@@ -63,10 +63,10 @@ FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/build: bsplin
 .PHONY : FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/build
 
 FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/clean:
-	cd /home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline && $(CMAKE_COMMAND) -P CMakeFiles/bspline_generate_messages.dir/cmake_clean.cmake
+	cd /home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline && $(CMAKE_COMMAND) -P CMakeFiles/bspline_generate_messages.dir/cmake_clean.cmake
 .PHONY : FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/clean
 
 FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/depend:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/fuel/fuel/src /home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline /home/gjh/fuel/fuel/build /home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline /home/gjh/fuel/fuel/build/FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gjh/uav-ugv/fuel/fuel/src /home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline /home/gjh/uav-ugv/fuel/fuel/build /home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline /home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : FUEL/fuel_planner/bspline/CMakeFiles/bspline_generate_messages.dir/depend
 

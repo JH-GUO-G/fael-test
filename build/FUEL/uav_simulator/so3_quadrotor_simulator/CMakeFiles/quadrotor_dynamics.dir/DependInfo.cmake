@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gjh/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp" "/home/gjh/fuel/fuel/build/FUEL/uav_simulator/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/src/dynamics/Quadrotor.cpp" "/home/gjh/uav-ugv/fuel/fuel/build/FUEL/uav_simulator/so3_quadrotor_simulator/CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,10 +19,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
-  "/home/gjh/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/include/ode"
-  "/home/gjh/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/include"
-  "/home/gjh/fuel/fuel/devel/include"
-  "/home/gjh/fuel/fuel/src/FUEL/uav_simulator/Utils/uav_utils/include"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/include/ode"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/so3_quadrotor_simulator/include"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/include"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/uav_simulator/Utils/uav_utils/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

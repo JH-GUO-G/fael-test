@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
+  "/home/gjh/uav-ugv/fuel/fuel/src/FUEL/rotors_simulator/rotors_gazebo/models/iris/iris.sdf"
   "CMakeFiles/sdf"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/waypoint_generator/waypoint_generator"
-  "/home/gjh/fuel/fuel/devel/lib/waypoint_generator/waypoint_generator.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/waypoint_generator/waypoint_generator"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/waypoint_generator/waypoint_generator.pdb"
   "CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o"
 )
 

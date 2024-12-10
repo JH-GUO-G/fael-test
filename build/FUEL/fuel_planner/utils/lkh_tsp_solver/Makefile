@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gjh/fuel/fuel/src
+CMAKE_SOURCE_DIR = /home/gjh/uav-ugv/fuel/fuel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gjh/fuel/fuel/build
+CMAKE_BINARY_DIR = /home/gjh/uav-ugv/fuel/fuel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/fuel/fuel/build/CMakeFiles /home/gjh/fuel/fuel/build/FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/progress.marks
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/fuel/fuel/build/CMakeFiles 0
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles /home/gjh/uav-ugv/fuel/fuel/build/FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/progress.marks
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gjh/uav-ugv/fuel/fuel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/clean
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/preinstall
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/preinstall
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/rule:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/rule
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/rule
 .PHONY : FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ lkh_tsp: FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/rule
 
 # fast build rule for target.
 lkh_tsp/fast:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build
 .PHONY : lkh_tsp/fast
 
 # Convenience name for target.
 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/rule:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/rule
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f CMakeFiles/Makefile2 FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/rule
 .PHONY : FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ lkh_tsp_solver: FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver
 
 # fast build rule for target.
 lkh_tsp_solver/fast:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build
 .PHONY : lkh_tsp_solver/fast
 
 src/Activate.o: src/Activate.c.o
@@ -203,8 +203,8 @@ src/Activate.o: src/Activate.c.o
 
 # target to build an object file
 src/Activate.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.o
 .PHONY : src/Activate.c.o
 
 src/Activate.i: src/Activate.c.i
@@ -213,8 +213,8 @@ src/Activate.i: src/Activate.c.i
 
 # target to preprocess a source file
 src/Activate.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.i
 .PHONY : src/Activate.c.i
 
 src/Activate.s: src/Activate.c.s
@@ -223,8 +223,8 @@ src/Activate.s: src/Activate.c.s
 
 # target to generate assembly for a file
 src/Activate.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Activate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Activate.c.s
 .PHONY : src/Activate.c.s
 
 src/AddCandidate.o: src/AddCandidate.c.o
@@ -233,8 +233,8 @@ src/AddCandidate.o: src/AddCandidate.c.o
 
 # target to build an object file
 src/AddCandidate.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.o
 .PHONY : src/AddCandidate.c.o
 
 src/AddCandidate.i: src/AddCandidate.c.i
@@ -243,8 +243,8 @@ src/AddCandidate.i: src/AddCandidate.c.i
 
 # target to preprocess a source file
 src/AddCandidate.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.i
 .PHONY : src/AddCandidate.c.i
 
 src/AddCandidate.s: src/AddCandidate.c.s
@@ -253,8 +253,8 @@ src/AddCandidate.s: src/AddCandidate.c.s
 
 # target to generate assembly for a file
 src/AddCandidate.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddCandidate.c.s
 .PHONY : src/AddCandidate.c.s
 
 src/AddExtraCandidates.o: src/AddExtraCandidates.c.o
@@ -263,8 +263,8 @@ src/AddExtraCandidates.o: src/AddExtraCandidates.c.o
 
 # target to build an object file
 src/AddExtraCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.o
 .PHONY : src/AddExtraCandidates.c.o
 
 src/AddExtraCandidates.i: src/AddExtraCandidates.c.i
@@ -273,8 +273,8 @@ src/AddExtraCandidates.i: src/AddExtraCandidates.c.i
 
 # target to preprocess a source file
 src/AddExtraCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.i
 .PHONY : src/AddExtraCandidates.c.i
 
 src/AddExtraCandidates.s: src/AddExtraCandidates.c.s
@@ -283,8 +283,8 @@ src/AddExtraCandidates.s: src/AddExtraCandidates.c.s
 
 # target to generate assembly for a file
 src/AddExtraCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddExtraCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddExtraCandidates.c.s
 .PHONY : src/AddExtraCandidates.c.s
 
 src/AddTourCandidates.o: src/AddTourCandidates.c.o
@@ -293,8 +293,8 @@ src/AddTourCandidates.o: src/AddTourCandidates.c.o
 
 # target to build an object file
 src/AddTourCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.o
 .PHONY : src/AddTourCandidates.c.o
 
 src/AddTourCandidates.i: src/AddTourCandidates.c.i
@@ -303,8 +303,8 @@ src/AddTourCandidates.i: src/AddTourCandidates.c.i
 
 # target to preprocess a source file
 src/AddTourCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.i
 .PHONY : src/AddTourCandidates.c.i
 
 src/AddTourCandidates.s: src/AddTourCandidates.c.s
@@ -313,8 +313,8 @@ src/AddTourCandidates.s: src/AddTourCandidates.c.s
 
 # target to generate assembly for a file
 src/AddTourCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AddTourCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AddTourCandidates.c.s
 .PHONY : src/AddTourCandidates.c.s
 
 src/AdjustCandidateSet.o: src/AdjustCandidateSet.c.o
@@ -323,8 +323,8 @@ src/AdjustCandidateSet.o: src/AdjustCandidateSet.c.o
 
 # target to build an object file
 src/AdjustCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.o
 .PHONY : src/AdjustCandidateSet.c.o
 
 src/AdjustCandidateSet.i: src/AdjustCandidateSet.c.i
@@ -333,8 +333,8 @@ src/AdjustCandidateSet.i: src/AdjustCandidateSet.c.i
 
 # target to preprocess a source file
 src/AdjustCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.i
 .PHONY : src/AdjustCandidateSet.c.i
 
 src/AdjustCandidateSet.s: src/AdjustCandidateSet.c.s
@@ -343,8 +343,8 @@ src/AdjustCandidateSet.s: src/AdjustCandidateSet.c.s
 
 # target to generate assembly for a file
 src/AdjustCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustCandidateSet.c.s
 .PHONY : src/AdjustCandidateSet.c.s
 
 src/AdjustClusters.o: src/AdjustClusters.c.o
@@ -353,8 +353,8 @@ src/AdjustClusters.o: src/AdjustClusters.c.o
 
 # target to build an object file
 src/AdjustClusters.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.o
 .PHONY : src/AdjustClusters.c.o
 
 src/AdjustClusters.i: src/AdjustClusters.c.i
@@ -363,8 +363,8 @@ src/AdjustClusters.i: src/AdjustClusters.c.i
 
 # target to preprocess a source file
 src/AdjustClusters.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.i
 .PHONY : src/AdjustClusters.c.i
 
 src/AdjustClusters.s: src/AdjustClusters.c.s
@@ -373,8 +373,8 @@ src/AdjustClusters.s: src/AdjustClusters.c.s
 
 # target to generate assembly for a file
 src/AdjustClusters.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AdjustClusters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AdjustClusters.c.s
 .PHONY : src/AdjustClusters.c.s
 
 src/AllocateStructures.o: src/AllocateStructures.c.o
@@ -383,8 +383,8 @@ src/AllocateStructures.o: src/AllocateStructures.c.o
 
 # target to build an object file
 src/AllocateStructures.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.o
 .PHONY : src/AllocateStructures.c.o
 
 src/AllocateStructures.i: src/AllocateStructures.c.i
@@ -393,8 +393,8 @@ src/AllocateStructures.i: src/AllocateStructures.c.i
 
 # target to preprocess a source file
 src/AllocateStructures.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.i
 .PHONY : src/AllocateStructures.c.i
 
 src/AllocateStructures.s: src/AllocateStructures.c.s
@@ -403,8 +403,8 @@ src/AllocateStructures.s: src/AllocateStructures.c.s
 
 # target to generate assembly for a file
 src/AllocateStructures.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/AllocateStructures.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/AllocateStructures.c.s
 .PHONY : src/AllocateStructures.c.s
 
 src/Ascent.o: src/Ascent.c.o
@@ -413,8 +413,8 @@ src/Ascent.o: src/Ascent.c.o
 
 # target to build an object file
 src/Ascent.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.o
 .PHONY : src/Ascent.c.o
 
 src/Ascent.i: src/Ascent.c.i
@@ -423,8 +423,8 @@ src/Ascent.i: src/Ascent.c.i
 
 # target to preprocess a source file
 src/Ascent.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.i
 .PHONY : src/Ascent.c.i
 
 src/Ascent.s: src/Ascent.c.s
@@ -433,8 +433,8 @@ src/Ascent.s: src/Ascent.c.s
 
 # target to generate assembly for a file
 src/Ascent.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Ascent.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Ascent.c.s
 .PHONY : src/Ascent.c.s
 
 src/Best2OptMove.o: src/Best2OptMove.c.o
@@ -443,8 +443,8 @@ src/Best2OptMove.o: src/Best2OptMove.c.o
 
 # target to build an object file
 src/Best2OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.o
 .PHONY : src/Best2OptMove.c.o
 
 src/Best2OptMove.i: src/Best2OptMove.c.i
@@ -453,8 +453,8 @@ src/Best2OptMove.i: src/Best2OptMove.c.i
 
 # target to preprocess a source file
 src/Best2OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.i
 .PHONY : src/Best2OptMove.c.i
 
 src/Best2OptMove.s: src/Best2OptMove.c.s
@@ -463,8 +463,8 @@ src/Best2OptMove.s: src/Best2OptMove.c.s
 
 # target to generate assembly for a file
 src/Best2OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best2OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best2OptMove.c.s
 .PHONY : src/Best2OptMove.c.s
 
 src/Best3OptMove.o: src/Best3OptMove.c.o
@@ -473,8 +473,8 @@ src/Best3OptMove.o: src/Best3OptMove.c.o
 
 # target to build an object file
 src/Best3OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.o
 .PHONY : src/Best3OptMove.c.o
 
 src/Best3OptMove.i: src/Best3OptMove.c.i
@@ -483,8 +483,8 @@ src/Best3OptMove.i: src/Best3OptMove.c.i
 
 # target to preprocess a source file
 src/Best3OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.i
 .PHONY : src/Best3OptMove.c.i
 
 src/Best3OptMove.s: src/Best3OptMove.c.s
@@ -493,8 +493,8 @@ src/Best3OptMove.s: src/Best3OptMove.c.s
 
 # target to generate assembly for a file
 src/Best3OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best3OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best3OptMove.c.s
 .PHONY : src/Best3OptMove.c.s
 
 src/Best4OptMove.o: src/Best4OptMove.c.o
@@ -503,8 +503,8 @@ src/Best4OptMove.o: src/Best4OptMove.c.o
 
 # target to build an object file
 src/Best4OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.o
 .PHONY : src/Best4OptMove.c.o
 
 src/Best4OptMove.i: src/Best4OptMove.c.i
@@ -513,8 +513,8 @@ src/Best4OptMove.i: src/Best4OptMove.c.i
 
 # target to preprocess a source file
 src/Best4OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.i
 .PHONY : src/Best4OptMove.c.i
 
 src/Best4OptMove.s: src/Best4OptMove.c.s
@@ -523,8 +523,8 @@ src/Best4OptMove.s: src/Best4OptMove.c.s
 
 # target to generate assembly for a file
 src/Best4OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best4OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best4OptMove.c.s
 .PHONY : src/Best4OptMove.c.s
 
 src/Best5OptMove.o: src/Best5OptMove.c.o
@@ -533,8 +533,8 @@ src/Best5OptMove.o: src/Best5OptMove.c.o
 
 # target to build an object file
 src/Best5OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.o
 .PHONY : src/Best5OptMove.c.o
 
 src/Best5OptMove.i: src/Best5OptMove.c.i
@@ -543,8 +543,8 @@ src/Best5OptMove.i: src/Best5OptMove.c.i
 
 # target to preprocess a source file
 src/Best5OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.i
 .PHONY : src/Best5OptMove.c.i
 
 src/Best5OptMove.s: src/Best5OptMove.c.s
@@ -553,8 +553,8 @@ src/Best5OptMove.s: src/Best5OptMove.c.s
 
 # target to generate assembly for a file
 src/Best5OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Best5OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Best5OptMove.c.s
 .PHONY : src/Best5OptMove.c.s
 
 src/BestKOptMove.o: src/BestKOptMove.c.o
@@ -563,8 +563,8 @@ src/BestKOptMove.o: src/BestKOptMove.c.o
 
 # target to build an object file
 src/BestKOptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.o
 .PHONY : src/BestKOptMove.c.o
 
 src/BestKOptMove.i: src/BestKOptMove.c.i
@@ -573,8 +573,8 @@ src/BestKOptMove.i: src/BestKOptMove.c.i
 
 # target to preprocess a source file
 src/BestKOptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.i
 .PHONY : src/BestKOptMove.c.i
 
 src/BestKOptMove.s: src/BestKOptMove.c.s
@@ -583,8 +583,8 @@ src/BestKOptMove.s: src/BestKOptMove.c.s
 
 # target to generate assembly for a file
 src/BestKOptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BestKOptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BestKOptMove.c.s
 .PHONY : src/BestKOptMove.c.s
 
 src/Between.o: src/Between.c.o
@@ -593,8 +593,8 @@ src/Between.o: src/Between.c.o
 
 # target to build an object file
 src/Between.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.o
 .PHONY : src/Between.c.o
 
 src/Between.i: src/Between.c.i
@@ -603,8 +603,8 @@ src/Between.i: src/Between.c.i
 
 # target to preprocess a source file
 src/Between.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.i
 .PHONY : src/Between.c.i
 
 src/Between.s: src/Between.c.s
@@ -613,8 +613,8 @@ src/Between.s: src/Between.c.s
 
 # target to generate assembly for a file
 src/Between.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between.c.s
 .PHONY : src/Between.c.s
 
 src/Between_SL.o: src/Between_SL.c.o
@@ -623,8 +623,8 @@ src/Between_SL.o: src/Between_SL.c.o
 
 # target to build an object file
 src/Between_SL.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.o
 .PHONY : src/Between_SL.c.o
 
 src/Between_SL.i: src/Between_SL.c.i
@@ -633,8 +633,8 @@ src/Between_SL.i: src/Between_SL.c.i
 
 # target to preprocess a source file
 src/Between_SL.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.i
 .PHONY : src/Between_SL.c.i
 
 src/Between_SL.s: src/Between_SL.c.s
@@ -643,8 +643,8 @@ src/Between_SL.s: src/Between_SL.c.s
 
 # target to generate assembly for a file
 src/Between_SL.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SL.c.s
 .PHONY : src/Between_SL.c.s
 
 src/Between_SSL.o: src/Between_SSL.c.o
@@ -653,8 +653,8 @@ src/Between_SSL.o: src/Between_SSL.c.o
 
 # target to build an object file
 src/Between_SSL.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.o
 .PHONY : src/Between_SSL.c.o
 
 src/Between_SSL.i: src/Between_SSL.c.i
@@ -663,8 +663,8 @@ src/Between_SSL.i: src/Between_SSL.c.i
 
 # target to preprocess a source file
 src/Between_SSL.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.i
 .PHONY : src/Between_SSL.c.i
 
 src/Between_SSL.s: src/Between_SSL.c.s
@@ -673,8 +673,8 @@ src/Between_SSL.s: src/Between_SSL.c.s
 
 # target to generate assembly for a file
 src/Between_SSL.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Between_SSL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Between_SSL.c.s
 .PHONY : src/Between_SSL.c.s
 
 src/BridgeGain.o: src/BridgeGain.c.o
@@ -683,8 +683,8 @@ src/BridgeGain.o: src/BridgeGain.c.o
 
 # target to build an object file
 src/BridgeGain.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.o
 .PHONY : src/BridgeGain.c.o
 
 src/BridgeGain.i: src/BridgeGain.c.i
@@ -693,8 +693,8 @@ src/BridgeGain.i: src/BridgeGain.c.i
 
 # target to preprocess a source file
 src/BridgeGain.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.i
 .PHONY : src/BridgeGain.c.i
 
 src/BridgeGain.s: src/BridgeGain.c.s
@@ -703,8 +703,8 @@ src/BridgeGain.s: src/BridgeGain.c.s
 
 # target to generate assembly for a file
 src/BridgeGain.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BridgeGain.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BridgeGain.c.s
 .PHONY : src/BridgeGain.c.s
 
 src/BuildKDTree.o: src/BuildKDTree.c.o
@@ -713,8 +713,8 @@ src/BuildKDTree.o: src/BuildKDTree.c.o
 
 # target to build an object file
 src/BuildKDTree.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.o
 .PHONY : src/BuildKDTree.c.o
 
 src/BuildKDTree.i: src/BuildKDTree.c.i
@@ -723,8 +723,8 @@ src/BuildKDTree.i: src/BuildKDTree.c.i
 
 # target to preprocess a source file
 src/BuildKDTree.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.i
 .PHONY : src/BuildKDTree.c.i
 
 src/BuildKDTree.s: src/BuildKDTree.c.s
@@ -733,8 +733,8 @@ src/BuildKDTree.s: src/BuildKDTree.c.s
 
 # target to generate assembly for a file
 src/BuildKDTree.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/BuildKDTree.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/BuildKDTree.c.s
 .PHONY : src/BuildKDTree.c.s
 
 src/C.o: src/C.c.o
@@ -743,8 +743,8 @@ src/C.o: src/C.c.o
 
 # target to build an object file
 src/C.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.o
 .PHONY : src/C.c.o
 
 src/C.i: src/C.c.i
@@ -753,8 +753,8 @@ src/C.i: src/C.c.i
 
 # target to preprocess a source file
 src/C.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.i
 .PHONY : src/C.c.i
 
 src/C.s: src/C.c.s
@@ -763,8 +763,8 @@ src/C.s: src/C.c.s
 
 # target to generate assembly for a file
 src/C.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/C.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/C.c.s
 .PHONY : src/C.c.s
 
 src/CandidateReport.o: src/CandidateReport.c.o
@@ -773,8 +773,8 @@ src/CandidateReport.o: src/CandidateReport.c.o
 
 # target to build an object file
 src/CandidateReport.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.o
 .PHONY : src/CandidateReport.c.o
 
 src/CandidateReport.i: src/CandidateReport.c.i
@@ -783,8 +783,8 @@ src/CandidateReport.i: src/CandidateReport.c.i
 
 # target to preprocess a source file
 src/CandidateReport.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.i
 .PHONY : src/CandidateReport.c.i
 
 src/CandidateReport.s: src/CandidateReport.c.s
@@ -793,8 +793,8 @@ src/CandidateReport.s: src/CandidateReport.c.s
 
 # target to generate assembly for a file
 src/CandidateReport.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CandidateReport.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CandidateReport.c.s
 .PHONY : src/CandidateReport.c.s
 
 src/ChooseInitialTour.o: src/ChooseInitialTour.c.o
@@ -803,8 +803,8 @@ src/ChooseInitialTour.o: src/ChooseInitialTour.c.o
 
 # target to build an object file
 src/ChooseInitialTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.o
 .PHONY : src/ChooseInitialTour.c.o
 
 src/ChooseInitialTour.i: src/ChooseInitialTour.c.i
@@ -813,8 +813,8 @@ src/ChooseInitialTour.i: src/ChooseInitialTour.c.i
 
 # target to preprocess a source file
 src/ChooseInitialTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.i
 .PHONY : src/ChooseInitialTour.c.i
 
 src/ChooseInitialTour.s: src/ChooseInitialTour.c.s
@@ -823,8 +823,8 @@ src/ChooseInitialTour.s: src/ChooseInitialTour.c.s
 
 # target to generate assembly for a file
 src/ChooseInitialTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ChooseInitialTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ChooseInitialTour.c.s
 .PHONY : src/ChooseInitialTour.c.s
 
 src/Connect.o: src/Connect.c.o
@@ -833,8 +833,8 @@ src/Connect.o: src/Connect.c.o
 
 # target to build an object file
 src/Connect.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.o
 .PHONY : src/Connect.c.o
 
 src/Connect.i: src/Connect.c.i
@@ -843,8 +843,8 @@ src/Connect.i: src/Connect.c.i
 
 # target to preprocess a source file
 src/Connect.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.i
 .PHONY : src/Connect.c.i
 
 src/Connect.s: src/Connect.c.s
@@ -853,8 +853,8 @@ src/Connect.s: src/Connect.c.s
 
 # target to generate assembly for a file
 src/Connect.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Connect.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Connect.c.s
 .PHONY : src/Connect.c.s
 
 src/CreateCandidateSet.o: src/CreateCandidateSet.c.o
@@ -863,8 +863,8 @@ src/CreateCandidateSet.o: src/CreateCandidateSet.c.o
 
 # target to build an object file
 src/CreateCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.o
 .PHONY : src/CreateCandidateSet.c.o
 
 src/CreateCandidateSet.i: src/CreateCandidateSet.c.i
@@ -873,8 +873,8 @@ src/CreateCandidateSet.i: src/CreateCandidateSet.c.i
 
 # target to preprocess a source file
 src/CreateCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.i
 .PHONY : src/CreateCandidateSet.c.i
 
 src/CreateCandidateSet.s: src/CreateCandidateSet.c.s
@@ -883,8 +883,8 @@ src/CreateCandidateSet.s: src/CreateCandidateSet.c.s
 
 # target to generate assembly for a file
 src/CreateCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateCandidateSet.c.s
 .PHONY : src/CreateCandidateSet.c.s
 
 src/CreateDelaunayCandidateSet.o: src/CreateDelaunayCandidateSet.c.o
@@ -893,8 +893,8 @@ src/CreateDelaunayCandidateSet.o: src/CreateDelaunayCandidateSet.c.o
 
 # target to build an object file
 src/CreateDelaunayCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.o
 .PHONY : src/CreateDelaunayCandidateSet.c.o
 
 src/CreateDelaunayCandidateSet.i: src/CreateDelaunayCandidateSet.c.i
@@ -903,8 +903,8 @@ src/CreateDelaunayCandidateSet.i: src/CreateDelaunayCandidateSet.c.i
 
 # target to preprocess a source file
 src/CreateDelaunayCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.i
 .PHONY : src/CreateDelaunayCandidateSet.c.i
 
 src/CreateDelaunayCandidateSet.s: src/CreateDelaunayCandidateSet.c.s
@@ -913,8 +913,8 @@ src/CreateDelaunayCandidateSet.s: src/CreateDelaunayCandidateSet.c.s
 
 # target to generate assembly for a file
 src/CreateDelaunayCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateDelaunayCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateDelaunayCandidateSet.c.s
 .PHONY : src/CreateDelaunayCandidateSet.c.s
 
 src/CreateNNCandidateSet.o: src/CreateNNCandidateSet.c.o
@@ -923,8 +923,8 @@ src/CreateNNCandidateSet.o: src/CreateNNCandidateSet.c.o
 
 # target to build an object file
 src/CreateNNCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.o
 .PHONY : src/CreateNNCandidateSet.c.o
 
 src/CreateNNCandidateSet.i: src/CreateNNCandidateSet.c.i
@@ -933,8 +933,8 @@ src/CreateNNCandidateSet.i: src/CreateNNCandidateSet.c.i
 
 # target to preprocess a source file
 src/CreateNNCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.i
 .PHONY : src/CreateNNCandidateSet.c.i
 
 src/CreateNNCandidateSet.s: src/CreateNNCandidateSet.c.s
@@ -943,8 +943,8 @@ src/CreateNNCandidateSet.s: src/CreateNNCandidateSet.c.s
 
 # target to generate assembly for a file
 src/CreateNNCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateNNCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateNNCandidateSet.c.s
 .PHONY : src/CreateNNCandidateSet.c.s
 
 src/CreateQuadrantCandidateSet.o: src/CreateQuadrantCandidateSet.c.o
@@ -953,8 +953,8 @@ src/CreateQuadrantCandidateSet.o: src/CreateQuadrantCandidateSet.c.o
 
 # target to build an object file
 src/CreateQuadrantCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.o
 .PHONY : src/CreateQuadrantCandidateSet.c.o
 
 src/CreateQuadrantCandidateSet.i: src/CreateQuadrantCandidateSet.c.i
@@ -963,8 +963,8 @@ src/CreateQuadrantCandidateSet.i: src/CreateQuadrantCandidateSet.c.i
 
 # target to preprocess a source file
 src/CreateQuadrantCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.i
 .PHONY : src/CreateQuadrantCandidateSet.c.i
 
 src/CreateQuadrantCandidateSet.s: src/CreateQuadrantCandidateSet.c.s
@@ -973,8 +973,8 @@ src/CreateQuadrantCandidateSet.s: src/CreateQuadrantCandidateSet.c.s
 
 # target to generate assembly for a file
 src/CreateQuadrantCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/CreateQuadrantCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/CreateQuadrantCandidateSet.c.s
 .PHONY : src/CreateQuadrantCandidateSet.c.s
 
 src/Create_POPMUSIC_CandidateSet.o: src/Create_POPMUSIC_CandidateSet.c.o
@@ -983,8 +983,8 @@ src/Create_POPMUSIC_CandidateSet.o: src/Create_POPMUSIC_CandidateSet.c.o
 
 # target to build an object file
 src/Create_POPMUSIC_CandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.o
 .PHONY : src/Create_POPMUSIC_CandidateSet.c.o
 
 src/Create_POPMUSIC_CandidateSet.i: src/Create_POPMUSIC_CandidateSet.c.i
@@ -993,8 +993,8 @@ src/Create_POPMUSIC_CandidateSet.i: src/Create_POPMUSIC_CandidateSet.c.i
 
 # target to preprocess a source file
 src/Create_POPMUSIC_CandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.i
 .PHONY : src/Create_POPMUSIC_CandidateSet.c.i
 
 src/Create_POPMUSIC_CandidateSet.s: src/Create_POPMUSIC_CandidateSet.c.s
@@ -1003,8 +1003,8 @@ src/Create_POPMUSIC_CandidateSet.s: src/Create_POPMUSIC_CandidateSet.c.s
 
 # target to generate assembly for a file
 src/Create_POPMUSIC_CandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Create_POPMUSIC_CandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Create_POPMUSIC_CandidateSet.c.s
 .PHONY : src/Create_POPMUSIC_CandidateSet.c.s
 
 src/Delaunay.o: src/Delaunay.c.o
@@ -1013,8 +1013,8 @@ src/Delaunay.o: src/Delaunay.c.o
 
 # target to build an object file
 src/Delaunay.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.o
 .PHONY : src/Delaunay.c.o
 
 src/Delaunay.i: src/Delaunay.c.i
@@ -1023,8 +1023,8 @@ src/Delaunay.i: src/Delaunay.c.i
 
 # target to preprocess a source file
 src/Delaunay.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.i
 .PHONY : src/Delaunay.c.i
 
 src/Delaunay.s: src/Delaunay.c.s
@@ -1033,8 +1033,8 @@ src/Delaunay.s: src/Delaunay.c.s
 
 # target to generate assembly for a file
 src/Delaunay.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Delaunay.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Delaunay.c.s
 .PHONY : src/Delaunay.c.s
 
 src/Distance.o: src/Distance.c.o
@@ -1043,8 +1043,8 @@ src/Distance.o: src/Distance.c.o
 
 # target to build an object file
 src/Distance.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.o
 .PHONY : src/Distance.c.o
 
 src/Distance.i: src/Distance.c.i
@@ -1053,8 +1053,8 @@ src/Distance.i: src/Distance.c.i
 
 # target to preprocess a source file
 src/Distance.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.i
 .PHONY : src/Distance.c.i
 
 src/Distance.s: src/Distance.c.s
@@ -1063,8 +1063,8 @@ src/Distance.s: src/Distance.c.s
 
 # target to generate assembly for a file
 src/Distance.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance.c.s
 .PHONY : src/Distance.c.s
 
 src/Distance_SPECIAL.o: src/Distance_SPECIAL.c.o
@@ -1073,8 +1073,8 @@ src/Distance_SPECIAL.o: src/Distance_SPECIAL.c.o
 
 # target to build an object file
 src/Distance_SPECIAL.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.o
 .PHONY : src/Distance_SPECIAL.c.o
 
 src/Distance_SPECIAL.i: src/Distance_SPECIAL.c.i
@@ -1083,8 +1083,8 @@ src/Distance_SPECIAL.i: src/Distance_SPECIAL.c.i
 
 # target to preprocess a source file
 src/Distance_SPECIAL.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.i
 .PHONY : src/Distance_SPECIAL.c.i
 
 src/Distance_SPECIAL.s: src/Distance_SPECIAL.c.s
@@ -1093,8 +1093,8 @@ src/Distance_SPECIAL.s: src/Distance_SPECIAL.c.s
 
 # target to generate assembly for a file
 src/Distance_SPECIAL.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Distance_SPECIAL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Distance_SPECIAL.c.s
 .PHONY : src/Distance_SPECIAL.c.s
 
 src/ERXT.o: src/ERXT.c.o
@@ -1103,8 +1103,8 @@ src/ERXT.o: src/ERXT.c.o
 
 # target to build an object file
 src/ERXT.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.o
 .PHONY : src/ERXT.c.o
 
 src/ERXT.i: src/ERXT.c.i
@@ -1113,8 +1113,8 @@ src/ERXT.i: src/ERXT.c.i
 
 # target to preprocess a source file
 src/ERXT.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.i
 .PHONY : src/ERXT.c.i
 
 src/ERXT.s: src/ERXT.c.s
@@ -1123,8 +1123,8 @@ src/ERXT.s: src/ERXT.c.s
 
 # target to generate assembly for a file
 src/ERXT.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ERXT.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ERXT.c.s
 .PHONY : src/ERXT.c.s
 
 src/Excludable.o: src/Excludable.c.o
@@ -1133,8 +1133,8 @@ src/Excludable.o: src/Excludable.c.o
 
 # target to build an object file
 src/Excludable.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.o
 .PHONY : src/Excludable.c.o
 
 src/Excludable.i: src/Excludable.c.i
@@ -1143,8 +1143,8 @@ src/Excludable.i: src/Excludable.c.i
 
 # target to preprocess a source file
 src/Excludable.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.i
 .PHONY : src/Excludable.c.i
 
 src/Excludable.s: src/Excludable.c.s
@@ -1153,8 +1153,8 @@ src/Excludable.s: src/Excludable.c.s
 
 # target to generate assembly for a file
 src/Excludable.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Excludable.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Excludable.c.s
 .PHONY : src/Excludable.c.s
 
 src/Exclude.o: src/Exclude.c.o
@@ -1163,8 +1163,8 @@ src/Exclude.o: src/Exclude.c.o
 
 # target to build an object file
 src/Exclude.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.o
 .PHONY : src/Exclude.c.o
 
 src/Exclude.i: src/Exclude.c.i
@@ -1173,8 +1173,8 @@ src/Exclude.i: src/Exclude.c.i
 
 # target to preprocess a source file
 src/Exclude.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.i
 .PHONY : src/Exclude.c.i
 
 src/Exclude.s: src/Exclude.c.s
@@ -1183,8 +1183,8 @@ src/Exclude.s: src/Exclude.c.s
 
 # target to generate assembly for a file
 src/Exclude.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Exclude.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Exclude.c.s
 .PHONY : src/Exclude.c.s
 
 src/FindTour.o: src/FindTour.c.o
@@ -1193,8 +1193,8 @@ src/FindTour.o: src/FindTour.c.o
 
 # target to build an object file
 src/FindTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.o
 .PHONY : src/FindTour.c.o
 
 src/FindTour.i: src/FindTour.c.i
@@ -1203,8 +1203,8 @@ src/FindTour.i: src/FindTour.c.i
 
 # target to preprocess a source file
 src/FindTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.i
 .PHONY : src/FindTour.c.i
 
 src/FindTour.s: src/FindTour.c.s
@@ -1213,8 +1213,8 @@ src/FindTour.s: src/FindTour.c.s
 
 # target to generate assembly for a file
 src/FindTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FindTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FindTour.c.s
 .PHONY : src/FindTour.c.s
 
 src/FixedOrCommonCandidates.o: src/FixedOrCommonCandidates.c.o
@@ -1223,8 +1223,8 @@ src/FixedOrCommonCandidates.o: src/FixedOrCommonCandidates.c.o
 
 # target to build an object file
 src/FixedOrCommonCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.o
 .PHONY : src/FixedOrCommonCandidates.c.o
 
 src/FixedOrCommonCandidates.i: src/FixedOrCommonCandidates.c.i
@@ -1233,8 +1233,8 @@ src/FixedOrCommonCandidates.i: src/FixedOrCommonCandidates.c.i
 
 # target to preprocess a source file
 src/FixedOrCommonCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.i
 .PHONY : src/FixedOrCommonCandidates.c.i
 
 src/FixedOrCommonCandidates.s: src/FixedOrCommonCandidates.c.s
@@ -1243,8 +1243,8 @@ src/FixedOrCommonCandidates.s: src/FixedOrCommonCandidates.c.s
 
 # target to generate assembly for a file
 src/FixedOrCommonCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FixedOrCommonCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FixedOrCommonCandidates.c.s
 .PHONY : src/FixedOrCommonCandidates.c.s
 
 src/Flip.o: src/Flip.c.o
@@ -1253,8 +1253,8 @@ src/Flip.o: src/Flip.c.o
 
 # target to build an object file
 src/Flip.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.o
 .PHONY : src/Flip.c.o
 
 src/Flip.i: src/Flip.c.i
@@ -1263,8 +1263,8 @@ src/Flip.i: src/Flip.c.i
 
 # target to preprocess a source file
 src/Flip.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.i
 .PHONY : src/Flip.c.i
 
 src/Flip.s: src/Flip.c.s
@@ -1273,8 +1273,8 @@ src/Flip.s: src/Flip.c.s
 
 # target to generate assembly for a file
 src/Flip.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip.c.s
 .PHONY : src/Flip.c.s
 
 src/Flip_SL.o: src/Flip_SL.c.o
@@ -1283,8 +1283,8 @@ src/Flip_SL.o: src/Flip_SL.c.o
 
 # target to build an object file
 src/Flip_SL.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.o
 .PHONY : src/Flip_SL.c.o
 
 src/Flip_SL.i: src/Flip_SL.c.i
@@ -1293,8 +1293,8 @@ src/Flip_SL.i: src/Flip_SL.c.i
 
 # target to preprocess a source file
 src/Flip_SL.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.i
 .PHONY : src/Flip_SL.c.i
 
 src/Flip_SL.s: src/Flip_SL.c.s
@@ -1303,8 +1303,8 @@ src/Flip_SL.s: src/Flip_SL.c.s
 
 # target to generate assembly for a file
 src/Flip_SL.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SL.c.s
 .PHONY : src/Flip_SL.c.s
 
 src/Flip_SSL.o: src/Flip_SSL.c.o
@@ -1313,8 +1313,8 @@ src/Flip_SSL.o: src/Flip_SSL.c.o
 
 # target to build an object file
 src/Flip_SSL.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.o
 .PHONY : src/Flip_SSL.c.o
 
 src/Flip_SSL.i: src/Flip_SSL.c.i
@@ -1323,8 +1323,8 @@ src/Flip_SSL.i: src/Flip_SSL.c.i
 
 # target to preprocess a source file
 src/Flip_SSL.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.i
 .PHONY : src/Flip_SSL.c.i
 
 src/Flip_SSL.s: src/Flip_SSL.c.s
@@ -1333,8 +1333,8 @@ src/Flip_SSL.s: src/Flip_SSL.c.s
 
 # target to generate assembly for a file
 src/Flip_SSL.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Flip_SSL.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Flip_SSL.c.s
 .PHONY : src/Flip_SSL.c.s
 
 src/Forbidden.o: src/Forbidden.c.o
@@ -1343,8 +1343,8 @@ src/Forbidden.o: src/Forbidden.c.o
 
 # target to build an object file
 src/Forbidden.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.o
 .PHONY : src/Forbidden.c.o
 
 src/Forbidden.i: src/Forbidden.c.i
@@ -1353,8 +1353,8 @@ src/Forbidden.i: src/Forbidden.c.i
 
 # target to preprocess a source file
 src/Forbidden.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.i
 .PHONY : src/Forbidden.c.i
 
 src/Forbidden.s: src/Forbidden.c.s
@@ -1363,8 +1363,8 @@ src/Forbidden.s: src/Forbidden.c.s
 
 # target to generate assembly for a file
 src/Forbidden.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Forbidden.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Forbidden.c.s
 .PHONY : src/Forbidden.c.s
 
 src/FreeStructures.o: src/FreeStructures.c.o
@@ -1373,8 +1373,8 @@ src/FreeStructures.o: src/FreeStructures.c.o
 
 # target to build an object file
 src/FreeStructures.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.o
 .PHONY : src/FreeStructures.c.o
 
 src/FreeStructures.i: src/FreeStructures.c.i
@@ -1383,8 +1383,8 @@ src/FreeStructures.i: src/FreeStructures.c.i
 
 # target to preprocess a source file
 src/FreeStructures.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.i
 .PHONY : src/FreeStructures.c.i
 
 src/FreeStructures.s: src/FreeStructures.c.s
@@ -1393,8 +1393,8 @@ src/FreeStructures.s: src/FreeStructures.c.s
 
 # target to generate assembly for a file
 src/FreeStructures.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/FreeStructures.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/FreeStructures.c.s
 .PHONY : src/FreeStructures.c.s
 
 src/Gain23.o: src/Gain23.c.o
@@ -1403,8 +1403,8 @@ src/Gain23.o: src/Gain23.c.o
 
 # target to build an object file
 src/Gain23.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.o
 .PHONY : src/Gain23.c.o
 
 src/Gain23.i: src/Gain23.c.i
@@ -1413,8 +1413,8 @@ src/Gain23.i: src/Gain23.c.i
 
 # target to preprocess a source file
 src/Gain23.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.i
 .PHONY : src/Gain23.c.i
 
 src/Gain23.s: src/Gain23.c.s
@@ -1423,8 +1423,8 @@ src/Gain23.s: src/Gain23.c.s
 
 # target to generate assembly for a file
 src/Gain23.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Gain23.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Gain23.c.s
 .PHONY : src/Gain23.c.s
 
 src/GenerateCandidates.o: src/GenerateCandidates.c.o
@@ -1433,8 +1433,8 @@ src/GenerateCandidates.o: src/GenerateCandidates.c.o
 
 # target to build an object file
 src/GenerateCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.o
 .PHONY : src/GenerateCandidates.c.o
 
 src/GenerateCandidates.i: src/GenerateCandidates.c.i
@@ -1443,8 +1443,8 @@ src/GenerateCandidates.i: src/GenerateCandidates.c.i
 
 # target to preprocess a source file
 src/GenerateCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.i
 .PHONY : src/GenerateCandidates.c.i
 
 src/GenerateCandidates.s: src/GenerateCandidates.c.s
@@ -1453,8 +1453,8 @@ src/GenerateCandidates.s: src/GenerateCandidates.c.s
 
 # target to generate assembly for a file
 src/GenerateCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GenerateCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GenerateCandidates.c.s
 .PHONY : src/GenerateCandidates.c.s
 
 src/Genetic.o: src/Genetic.c.o
@@ -1463,8 +1463,8 @@ src/Genetic.o: src/Genetic.c.o
 
 # target to build an object file
 src/Genetic.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.o
 .PHONY : src/Genetic.c.o
 
 src/Genetic.i: src/Genetic.c.i
@@ -1473,8 +1473,8 @@ src/Genetic.i: src/Genetic.c.i
 
 # target to preprocess a source file
 src/Genetic.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.i
 .PHONY : src/Genetic.c.i
 
 src/Genetic.s: src/Genetic.c.s
@@ -1483,8 +1483,8 @@ src/Genetic.s: src/Genetic.c.s
 
 # target to generate assembly for a file
 src/Genetic.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Genetic.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Genetic.c.s
 .PHONY : src/Genetic.c.s
 
 src/GeoConversion.o: src/GeoConversion.c.o
@@ -1493,8 +1493,8 @@ src/GeoConversion.o: src/GeoConversion.c.o
 
 # target to build an object file
 src/GeoConversion.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.o
 .PHONY : src/GeoConversion.c.o
 
 src/GeoConversion.i: src/GeoConversion.c.i
@@ -1503,8 +1503,8 @@ src/GeoConversion.i: src/GeoConversion.c.i
 
 # target to preprocess a source file
 src/GeoConversion.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.i
 .PHONY : src/GeoConversion.c.i
 
 src/GeoConversion.s: src/GeoConversion.c.s
@@ -1513,8 +1513,8 @@ src/GeoConversion.s: src/GeoConversion.c.s
 
 # target to generate assembly for a file
 src/GeoConversion.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GeoConversion.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GeoConversion.c.s
 .PHONY : src/GeoConversion.c.s
 
 src/GetTime.o: src/GetTime.c.o
@@ -1523,8 +1523,8 @@ src/GetTime.o: src/GetTime.c.o
 
 # target to build an object file
 src/GetTime.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.o
 .PHONY : src/GetTime.c.o
 
 src/GetTime.i: src/GetTime.c.i
@@ -1533,8 +1533,8 @@ src/GetTime.i: src/GetTime.c.i
 
 # target to preprocess a source file
 src/GetTime.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.i
 .PHONY : src/GetTime.c.i
 
 src/GetTime.s: src/GetTime.c.s
@@ -1543,8 +1543,8 @@ src/GetTime.s: src/GetTime.c.s
 
 # target to generate assembly for a file
 src/GetTime.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GetTime.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GetTime.c.s
 .PHONY : src/GetTime.c.s
 
 src/GreedyTour.o: src/GreedyTour.c.o
@@ -1553,8 +1553,8 @@ src/GreedyTour.o: src/GreedyTour.c.o
 
 # target to build an object file
 src/GreedyTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.o
 .PHONY : src/GreedyTour.c.o
 
 src/GreedyTour.i: src/GreedyTour.c.i
@@ -1563,8 +1563,8 @@ src/GreedyTour.i: src/GreedyTour.c.i
 
 # target to preprocess a source file
 src/GreedyTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.i
 .PHONY : src/GreedyTour.c.i
 
 src/GreedyTour.s: src/GreedyTour.c.s
@@ -1573,8 +1573,8 @@ src/GreedyTour.s: src/GreedyTour.c.s
 
 # target to generate assembly for a file
 src/GreedyTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/GreedyTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/GreedyTour.c.s
 .PHONY : src/GreedyTour.c.s
 
 src/Hashing.o: src/Hashing.c.o
@@ -1583,8 +1583,8 @@ src/Hashing.o: src/Hashing.c.o
 
 # target to build an object file
 src/Hashing.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.o
 .PHONY : src/Hashing.c.o
 
 src/Hashing.i: src/Hashing.c.i
@@ -1593,8 +1593,8 @@ src/Hashing.i: src/Hashing.c.i
 
 # target to preprocess a source file
 src/Hashing.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.i
 .PHONY : src/Hashing.c.i
 
 src/Hashing.s: src/Hashing.c.s
@@ -1603,8 +1603,8 @@ src/Hashing.s: src/Hashing.c.s
 
 # target to generate assembly for a file
 src/Hashing.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Hashing.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Hashing.c.s
 .PHONY : src/Hashing.c.s
 
 src/Heap.o: src/Heap.c.o
@@ -1613,8 +1613,8 @@ src/Heap.o: src/Heap.c.o
 
 # target to build an object file
 src/Heap.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.o
 .PHONY : src/Heap.c.o
 
 src/Heap.i: src/Heap.c.i
@@ -1623,8 +1623,8 @@ src/Heap.i: src/Heap.c.i
 
 # target to preprocess a source file
 src/Heap.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.i
 .PHONY : src/Heap.c.i
 
 src/Heap.s: src/Heap.c.s
@@ -1633,8 +1633,8 @@ src/Heap.s: src/Heap.c.s
 
 # target to generate assembly for a file
 src/Heap.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Heap.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Heap.c.s
 .PHONY : src/Heap.c.s
 
 src/IsBackboneCandidate.o: src/IsBackboneCandidate.c.o
@@ -1643,8 +1643,8 @@ src/IsBackboneCandidate.o: src/IsBackboneCandidate.c.o
 
 # target to build an object file
 src/IsBackboneCandidate.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.o
 .PHONY : src/IsBackboneCandidate.c.o
 
 src/IsBackboneCandidate.i: src/IsBackboneCandidate.c.i
@@ -1653,8 +1653,8 @@ src/IsBackboneCandidate.i: src/IsBackboneCandidate.c.i
 
 # target to preprocess a source file
 src/IsBackboneCandidate.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.i
 .PHONY : src/IsBackboneCandidate.c.i
 
 src/IsBackboneCandidate.s: src/IsBackboneCandidate.c.s
@@ -1663,8 +1663,8 @@ src/IsBackboneCandidate.s: src/IsBackboneCandidate.c.s
 
 # target to generate assembly for a file
 src/IsBackboneCandidate.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsBackboneCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsBackboneCandidate.c.s
 .PHONY : src/IsBackboneCandidate.c.s
 
 src/IsCandidate.o: src/IsCandidate.c.o
@@ -1673,8 +1673,8 @@ src/IsCandidate.o: src/IsCandidate.c.o
 
 # target to build an object file
 src/IsCandidate.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.o
 .PHONY : src/IsCandidate.c.o
 
 src/IsCandidate.i: src/IsCandidate.c.i
@@ -1683,8 +1683,8 @@ src/IsCandidate.i: src/IsCandidate.c.i
 
 # target to preprocess a source file
 src/IsCandidate.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.i
 .PHONY : src/IsCandidate.c.i
 
 src/IsCandidate.s: src/IsCandidate.c.s
@@ -1693,8 +1693,8 @@ src/IsCandidate.s: src/IsCandidate.c.s
 
 # target to generate assembly for a file
 src/IsCandidate.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCandidate.c.s
 .PHONY : src/IsCandidate.c.s
 
 src/IsCommonEdge.o: src/IsCommonEdge.c.o
@@ -1703,8 +1703,8 @@ src/IsCommonEdge.o: src/IsCommonEdge.c.o
 
 # target to build an object file
 src/IsCommonEdge.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.o
 .PHONY : src/IsCommonEdge.c.o
 
 src/IsCommonEdge.i: src/IsCommonEdge.c.i
@@ -1713,8 +1713,8 @@ src/IsCommonEdge.i: src/IsCommonEdge.c.i
 
 # target to preprocess a source file
 src/IsCommonEdge.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.i
 .PHONY : src/IsCommonEdge.c.i
 
 src/IsCommonEdge.s: src/IsCommonEdge.c.s
@@ -1723,8 +1723,8 @@ src/IsCommonEdge.s: src/IsCommonEdge.c.s
 
 # target to generate assembly for a file
 src/IsCommonEdge.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsCommonEdge.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsCommonEdge.c.s
 .PHONY : src/IsCommonEdge.c.s
 
 src/IsPossibleCandidate.o: src/IsPossibleCandidate.c.o
@@ -1733,8 +1733,8 @@ src/IsPossibleCandidate.o: src/IsPossibleCandidate.c.o
 
 # target to build an object file
 src/IsPossibleCandidate.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.o
 .PHONY : src/IsPossibleCandidate.c.o
 
 src/IsPossibleCandidate.i: src/IsPossibleCandidate.c.i
@@ -1743,8 +1743,8 @@ src/IsPossibleCandidate.i: src/IsPossibleCandidate.c.i
 
 # target to preprocess a source file
 src/IsPossibleCandidate.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.i
 .PHONY : src/IsPossibleCandidate.c.i
 
 src/IsPossibleCandidate.s: src/IsPossibleCandidate.c.s
@@ -1753,8 +1753,8 @@ src/IsPossibleCandidate.s: src/IsPossibleCandidate.c.s
 
 # target to generate assembly for a file
 src/IsPossibleCandidate.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/IsPossibleCandidate.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/IsPossibleCandidate.c.s
 .PHONY : src/IsPossibleCandidate.c.s
 
 src/KSwapKick.o: src/KSwapKick.c.o
@@ -1763,8 +1763,8 @@ src/KSwapKick.o: src/KSwapKick.c.o
 
 # target to build an object file
 src/KSwapKick.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.o
 .PHONY : src/KSwapKick.c.o
 
 src/KSwapKick.i: src/KSwapKick.c.i
@@ -1773,8 +1773,8 @@ src/KSwapKick.i: src/KSwapKick.c.i
 
 # target to preprocess a source file
 src/KSwapKick.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.i
 .PHONY : src/KSwapKick.c.i
 
 src/KSwapKick.s: src/KSwapKick.c.s
@@ -1783,8 +1783,8 @@ src/KSwapKick.s: src/KSwapKick.c.s
 
 # target to generate assembly for a file
 src/KSwapKick.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/KSwapKick.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/KSwapKick.c.s
 .PHONY : src/KSwapKick.c.s
 
 src/LKHmain.o: src/LKHmain.c.o
@@ -1793,8 +1793,8 @@ src/LKHmain.o: src/LKHmain.c.o
 
 # target to build an object file
 src/LKHmain.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.o
 .PHONY : src/LKHmain.c.o
 
 src/LKHmain.i: src/LKHmain.c.i
@@ -1803,8 +1803,8 @@ src/LKHmain.i: src/LKHmain.c.i
 
 # target to preprocess a source file
 src/LKHmain.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.i
 .PHONY : src/LKHmain.c.i
 
 src/LKHmain.s: src/LKHmain.c.s
@@ -1813,8 +1813,8 @@ src/LKHmain.s: src/LKHmain.c.s
 
 # target to generate assembly for a file
 src/LKHmain.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LKHmain.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LKHmain.c.s
 .PHONY : src/LKHmain.c.s
 
 src/LinKernighan.o: src/LinKernighan.c.o
@@ -1823,8 +1823,8 @@ src/LinKernighan.o: src/LinKernighan.c.o
 
 # target to build an object file
 src/LinKernighan.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.o
 .PHONY : src/LinKernighan.c.o
 
 src/LinKernighan.i: src/LinKernighan.c.i
@@ -1833,8 +1833,8 @@ src/LinKernighan.i: src/LinKernighan.c.i
 
 # target to preprocess a source file
 src/LinKernighan.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.i
 .PHONY : src/LinKernighan.c.i
 
 src/LinKernighan.s: src/LinKernighan.c.s
@@ -1843,8 +1843,8 @@ src/LinKernighan.s: src/LinKernighan.c.s
 
 # target to generate assembly for a file
 src/LinKernighan.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/LinKernighan.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/LinKernighan.c.s
 .PHONY : src/LinKernighan.c.s
 
 src/Make2OptMove.o: src/Make2OptMove.c.o
@@ -1853,8 +1853,8 @@ src/Make2OptMove.o: src/Make2OptMove.c.o
 
 # target to build an object file
 src/Make2OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.o
 .PHONY : src/Make2OptMove.c.o
 
 src/Make2OptMove.i: src/Make2OptMove.c.i
@@ -1863,8 +1863,8 @@ src/Make2OptMove.i: src/Make2OptMove.c.i
 
 # target to preprocess a source file
 src/Make2OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.i
 .PHONY : src/Make2OptMove.c.i
 
 src/Make2OptMove.s: src/Make2OptMove.c.s
@@ -1873,8 +1873,8 @@ src/Make2OptMove.s: src/Make2OptMove.c.s
 
 # target to generate assembly for a file
 src/Make2OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make2OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make2OptMove.c.s
 .PHONY : src/Make2OptMove.c.s
 
 src/Make3OptMove.o: src/Make3OptMove.c.o
@@ -1883,8 +1883,8 @@ src/Make3OptMove.o: src/Make3OptMove.c.o
 
 # target to build an object file
 src/Make3OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.o
 .PHONY : src/Make3OptMove.c.o
 
 src/Make3OptMove.i: src/Make3OptMove.c.i
@@ -1893,8 +1893,8 @@ src/Make3OptMove.i: src/Make3OptMove.c.i
 
 # target to preprocess a source file
 src/Make3OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.i
 .PHONY : src/Make3OptMove.c.i
 
 src/Make3OptMove.s: src/Make3OptMove.c.s
@@ -1903,8 +1903,8 @@ src/Make3OptMove.s: src/Make3OptMove.c.s
 
 # target to generate assembly for a file
 src/Make3OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make3OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make3OptMove.c.s
 .PHONY : src/Make3OptMove.c.s
 
 src/Make4OptMove.o: src/Make4OptMove.c.o
@@ -1913,8 +1913,8 @@ src/Make4OptMove.o: src/Make4OptMove.c.o
 
 # target to build an object file
 src/Make4OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.o
 .PHONY : src/Make4OptMove.c.o
 
 src/Make4OptMove.i: src/Make4OptMove.c.i
@@ -1923,8 +1923,8 @@ src/Make4OptMove.i: src/Make4OptMove.c.i
 
 # target to preprocess a source file
 src/Make4OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.i
 .PHONY : src/Make4OptMove.c.i
 
 src/Make4OptMove.s: src/Make4OptMove.c.s
@@ -1933,8 +1933,8 @@ src/Make4OptMove.s: src/Make4OptMove.c.s
 
 # target to generate assembly for a file
 src/Make4OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make4OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make4OptMove.c.s
 .PHONY : src/Make4OptMove.c.s
 
 src/Make5OptMove.o: src/Make5OptMove.c.o
@@ -1943,8 +1943,8 @@ src/Make5OptMove.o: src/Make5OptMove.c.o
 
 # target to build an object file
 src/Make5OptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.o
 .PHONY : src/Make5OptMove.c.o
 
 src/Make5OptMove.i: src/Make5OptMove.c.i
@@ -1953,8 +1953,8 @@ src/Make5OptMove.i: src/Make5OptMove.c.i
 
 # target to preprocess a source file
 src/Make5OptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.i
 .PHONY : src/Make5OptMove.c.i
 
 src/Make5OptMove.s: src/Make5OptMove.c.s
@@ -1963,8 +1963,8 @@ src/Make5OptMove.s: src/Make5OptMove.c.s
 
 # target to generate assembly for a file
 src/Make5OptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Make5OptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Make5OptMove.c.s
 .PHONY : src/Make5OptMove.c.s
 
 src/MakeKOptMove.o: src/MakeKOptMove.c.o
@@ -1973,8 +1973,8 @@ src/MakeKOptMove.o: src/MakeKOptMove.c.o
 
 # target to build an object file
 src/MakeKOptMove.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.o
 .PHONY : src/MakeKOptMove.c.o
 
 src/MakeKOptMove.i: src/MakeKOptMove.c.i
@@ -1983,8 +1983,8 @@ src/MakeKOptMove.i: src/MakeKOptMove.c.i
 
 # target to preprocess a source file
 src/MakeKOptMove.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.i
 .PHONY : src/MakeKOptMove.c.i
 
 src/MakeKOptMove.s: src/MakeKOptMove.c.s
@@ -1993,8 +1993,8 @@ src/MakeKOptMove.s: src/MakeKOptMove.c.s
 
 # target to generate assembly for a file
 src/MakeKOptMove.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MakeKOptMove.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MakeKOptMove.c.s
 .PHONY : src/MakeKOptMove.c.s
 
 src/MergeTourWithBestTour.o: src/MergeTourWithBestTour.c.o
@@ -2003,8 +2003,8 @@ src/MergeTourWithBestTour.o: src/MergeTourWithBestTour.c.o
 
 # target to build an object file
 src/MergeTourWithBestTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.o
 .PHONY : src/MergeTourWithBestTour.c.o
 
 src/MergeTourWithBestTour.i: src/MergeTourWithBestTour.c.i
@@ -2013,8 +2013,8 @@ src/MergeTourWithBestTour.i: src/MergeTourWithBestTour.c.i
 
 # target to preprocess a source file
 src/MergeTourWithBestTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.i
 .PHONY : src/MergeTourWithBestTour.c.i
 
 src/MergeTourWithBestTour.s: src/MergeTourWithBestTour.c.s
@@ -2023,8 +2023,8 @@ src/MergeTourWithBestTour.s: src/MergeTourWithBestTour.c.s
 
 # target to generate assembly for a file
 src/MergeTourWithBestTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeTourWithBestTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeTourWithBestTour.c.s
 .PHONY : src/MergeTourWithBestTour.c.s
 
 src/MergeWithTourGPX2.o: src/MergeWithTourGPX2.c.o
@@ -2033,8 +2033,8 @@ src/MergeWithTourGPX2.o: src/MergeWithTourGPX2.c.o
 
 # target to build an object file
 src/MergeWithTourGPX2.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.o
 .PHONY : src/MergeWithTourGPX2.c.o
 
 src/MergeWithTourGPX2.i: src/MergeWithTourGPX2.c.i
@@ -2043,8 +2043,8 @@ src/MergeWithTourGPX2.i: src/MergeWithTourGPX2.c.i
 
 # target to preprocess a source file
 src/MergeWithTourGPX2.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.i
 .PHONY : src/MergeWithTourGPX2.c.i
 
 src/MergeWithTourGPX2.s: src/MergeWithTourGPX2.c.s
@@ -2053,8 +2053,8 @@ src/MergeWithTourGPX2.s: src/MergeWithTourGPX2.c.s
 
 # target to generate assembly for a file
 src/MergeWithTourGPX2.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourGPX2.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourGPX2.c.s
 .PHONY : src/MergeWithTourGPX2.c.s
 
 src/MergeWithTourIPT.o: src/MergeWithTourIPT.c.o
@@ -2063,8 +2063,8 @@ src/MergeWithTourIPT.o: src/MergeWithTourIPT.c.o
 
 # target to build an object file
 src/MergeWithTourIPT.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.o
 .PHONY : src/MergeWithTourIPT.c.o
 
 src/MergeWithTourIPT.i: src/MergeWithTourIPT.c.i
@@ -2073,8 +2073,8 @@ src/MergeWithTourIPT.i: src/MergeWithTourIPT.c.i
 
 # target to preprocess a source file
 src/MergeWithTourIPT.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.i
 .PHONY : src/MergeWithTourIPT.c.i
 
 src/MergeWithTourIPT.s: src/MergeWithTourIPT.c.s
@@ -2083,8 +2083,8 @@ src/MergeWithTourIPT.s: src/MergeWithTourIPT.c.s
 
 # target to generate assembly for a file
 src/MergeWithTourIPT.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MergeWithTourIPT.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MergeWithTourIPT.c.s
 .PHONY : src/MergeWithTourIPT.c.s
 
 src/Minimum1TreeCost.o: src/Minimum1TreeCost.c.o
@@ -2093,8 +2093,8 @@ src/Minimum1TreeCost.o: src/Minimum1TreeCost.c.o
 
 # target to build an object file
 src/Minimum1TreeCost.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.o
 .PHONY : src/Minimum1TreeCost.c.o
 
 src/Minimum1TreeCost.i: src/Minimum1TreeCost.c.i
@@ -2103,8 +2103,8 @@ src/Minimum1TreeCost.i: src/Minimum1TreeCost.c.i
 
 # target to preprocess a source file
 src/Minimum1TreeCost.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.i
 .PHONY : src/Minimum1TreeCost.c.i
 
 src/Minimum1TreeCost.s: src/Minimum1TreeCost.c.s
@@ -2113,8 +2113,8 @@ src/Minimum1TreeCost.s: src/Minimum1TreeCost.c.s
 
 # target to generate assembly for a file
 src/Minimum1TreeCost.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Minimum1TreeCost.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Minimum1TreeCost.c.s
 .PHONY : src/Minimum1TreeCost.c.s
 
 src/MinimumSpanningTree.o: src/MinimumSpanningTree.c.o
@@ -2123,8 +2123,8 @@ src/MinimumSpanningTree.o: src/MinimumSpanningTree.c.o
 
 # target to build an object file
 src/MinimumSpanningTree.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.o
 .PHONY : src/MinimumSpanningTree.c.o
 
 src/MinimumSpanningTree.i: src/MinimumSpanningTree.c.i
@@ -2133,8 +2133,8 @@ src/MinimumSpanningTree.i: src/MinimumSpanningTree.c.i
 
 # target to preprocess a source file
 src/MinimumSpanningTree.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.i
 .PHONY : src/MinimumSpanningTree.c.i
 
 src/MinimumSpanningTree.s: src/MinimumSpanningTree.c.s
@@ -2143,8 +2143,8 @@ src/MinimumSpanningTree.s: src/MinimumSpanningTree.c.s
 
 # target to generate assembly for a file
 src/MinimumSpanningTree.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/MinimumSpanningTree.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/MinimumSpanningTree.c.s
 .PHONY : src/MinimumSpanningTree.c.s
 
 src/NormalizeNodeList.o: src/NormalizeNodeList.c.o
@@ -2153,8 +2153,8 @@ src/NormalizeNodeList.o: src/NormalizeNodeList.c.o
 
 # target to build an object file
 src/NormalizeNodeList.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.o
 .PHONY : src/NormalizeNodeList.c.o
 
 src/NormalizeNodeList.i: src/NormalizeNodeList.c.i
@@ -2163,8 +2163,8 @@ src/NormalizeNodeList.i: src/NormalizeNodeList.c.i
 
 # target to preprocess a source file
 src/NormalizeNodeList.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.i
 .PHONY : src/NormalizeNodeList.c.i
 
 src/NormalizeNodeList.s: src/NormalizeNodeList.c.s
@@ -2173,8 +2173,8 @@ src/NormalizeNodeList.s: src/NormalizeNodeList.c.s
 
 # target to generate assembly for a file
 src/NormalizeNodeList.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeNodeList.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeNodeList.c.s
 .PHONY : src/NormalizeNodeList.c.s
 
 src/NormalizeSegmentList.o: src/NormalizeSegmentList.c.o
@@ -2183,8 +2183,8 @@ src/NormalizeSegmentList.o: src/NormalizeSegmentList.c.o
 
 # target to build an object file
 src/NormalizeSegmentList.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.o
 .PHONY : src/NormalizeSegmentList.c.o
 
 src/NormalizeSegmentList.i: src/NormalizeSegmentList.c.i
@@ -2193,8 +2193,8 @@ src/NormalizeSegmentList.i: src/NormalizeSegmentList.c.i
 
 # target to preprocess a source file
 src/NormalizeSegmentList.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.i
 .PHONY : src/NormalizeSegmentList.c.i
 
 src/NormalizeSegmentList.s: src/NormalizeSegmentList.c.s
@@ -2203,8 +2203,8 @@ src/NormalizeSegmentList.s: src/NormalizeSegmentList.c.s
 
 # target to generate assembly for a file
 src/NormalizeSegmentList.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/NormalizeSegmentList.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/NormalizeSegmentList.c.s
 .PHONY : src/NormalizeSegmentList.c.s
 
 src/OrderCandidateSet.o: src/OrderCandidateSet.c.o
@@ -2213,8 +2213,8 @@ src/OrderCandidateSet.o: src/OrderCandidateSet.c.o
 
 # target to build an object file
 src/OrderCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.o
 .PHONY : src/OrderCandidateSet.c.o
 
 src/OrderCandidateSet.i: src/OrderCandidateSet.c.i
@@ -2223,8 +2223,8 @@ src/OrderCandidateSet.i: src/OrderCandidateSet.c.i
 
 # target to preprocess a source file
 src/OrderCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.i
 .PHONY : src/OrderCandidateSet.c.i
 
 src/OrderCandidateSet.s: src/OrderCandidateSet.c.s
@@ -2233,8 +2233,8 @@ src/OrderCandidateSet.s: src/OrderCandidateSet.c.s
 
 # target to generate assembly for a file
 src/OrderCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/OrderCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/OrderCandidateSet.c.s
 .PHONY : src/OrderCandidateSet.c.s
 
 src/PatchCycles.o: src/PatchCycles.c.o
@@ -2243,8 +2243,8 @@ src/PatchCycles.o: src/PatchCycles.c.o
 
 # target to build an object file
 src/PatchCycles.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.o
 .PHONY : src/PatchCycles.c.o
 
 src/PatchCycles.i: src/PatchCycles.c.i
@@ -2253,8 +2253,8 @@ src/PatchCycles.i: src/PatchCycles.c.i
 
 # target to preprocess a source file
 src/PatchCycles.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.i
 .PHONY : src/PatchCycles.c.i
 
 src/PatchCycles.s: src/PatchCycles.c.s
@@ -2263,8 +2263,8 @@ src/PatchCycles.s: src/PatchCycles.c.s
 
 # target to generate assembly for a file
 src/PatchCycles.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PatchCycles.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PatchCycles.c.s
 .PHONY : src/PatchCycles.c.s
 
 src/PrintParameters.o: src/PrintParameters.c.o
@@ -2273,8 +2273,8 @@ src/PrintParameters.o: src/PrintParameters.c.o
 
 # target to build an object file
 src/PrintParameters.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.o
 .PHONY : src/PrintParameters.c.o
 
 src/PrintParameters.i: src/PrintParameters.c.i
@@ -2283,8 +2283,8 @@ src/PrintParameters.i: src/PrintParameters.c.i
 
 # target to preprocess a source file
 src/PrintParameters.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.i
 .PHONY : src/PrintParameters.c.i
 
 src/PrintParameters.s: src/PrintParameters.c.s
@@ -2293,8 +2293,8 @@ src/PrintParameters.s: src/PrintParameters.c.s
 
 # target to generate assembly for a file
 src/PrintParameters.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/PrintParameters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/PrintParameters.c.s
 .PHONY : src/PrintParameters.c.s
 
 src/Random.o: src/Random.c.o
@@ -2303,8 +2303,8 @@ src/Random.o: src/Random.c.o
 
 # target to build an object file
 src/Random.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.o
 .PHONY : src/Random.c.o
 
 src/Random.i: src/Random.c.i
@@ -2313,8 +2313,8 @@ src/Random.i: src/Random.c.i
 
 # target to preprocess a source file
 src/Random.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.i
 .PHONY : src/Random.c.i
 
 src/Random.s: src/Random.c.s
@@ -2323,8 +2323,8 @@ src/Random.s: src/Random.c.s
 
 # target to generate assembly for a file
 src/Random.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Random.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Random.c.s
 .PHONY : src/Random.c.s
 
 src/ReadCandidates.o: src/ReadCandidates.c.o
@@ -2333,8 +2333,8 @@ src/ReadCandidates.o: src/ReadCandidates.c.o
 
 # target to build an object file
 src/ReadCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.o
 .PHONY : src/ReadCandidates.c.o
 
 src/ReadCandidates.i: src/ReadCandidates.c.i
@@ -2343,8 +2343,8 @@ src/ReadCandidates.i: src/ReadCandidates.c.i
 
 # target to preprocess a source file
 src/ReadCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.i
 .PHONY : src/ReadCandidates.c.i
 
 src/ReadCandidates.s: src/ReadCandidates.c.s
@@ -2353,8 +2353,8 @@ src/ReadCandidates.s: src/ReadCandidates.c.s
 
 # target to generate assembly for a file
 src/ReadCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadCandidates.c.s
 .PHONY : src/ReadCandidates.c.s
 
 src/ReadEdges.o: src/ReadEdges.c.o
@@ -2363,8 +2363,8 @@ src/ReadEdges.o: src/ReadEdges.c.o
 
 # target to build an object file
 src/ReadEdges.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.o
 .PHONY : src/ReadEdges.c.o
 
 src/ReadEdges.i: src/ReadEdges.c.i
@@ -2373,8 +2373,8 @@ src/ReadEdges.i: src/ReadEdges.c.i
 
 # target to preprocess a source file
 src/ReadEdges.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.i
 .PHONY : src/ReadEdges.c.i
 
 src/ReadEdges.s: src/ReadEdges.c.s
@@ -2383,8 +2383,8 @@ src/ReadEdges.s: src/ReadEdges.c.s
 
 # target to generate assembly for a file
 src/ReadEdges.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadEdges.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadEdges.c.s
 .PHONY : src/ReadEdges.c.s
 
 src/ReadLine.o: src/ReadLine.c.o
@@ -2393,8 +2393,8 @@ src/ReadLine.o: src/ReadLine.c.o
 
 # target to build an object file
 src/ReadLine.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.o
 .PHONY : src/ReadLine.c.o
 
 src/ReadLine.i: src/ReadLine.c.i
@@ -2403,8 +2403,8 @@ src/ReadLine.i: src/ReadLine.c.i
 
 # target to preprocess a source file
 src/ReadLine.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.i
 .PHONY : src/ReadLine.c.i
 
 src/ReadLine.s: src/ReadLine.c.s
@@ -2413,8 +2413,8 @@ src/ReadLine.s: src/ReadLine.c.s
 
 # target to generate assembly for a file
 src/ReadLine.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadLine.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadLine.c.s
 .PHONY : src/ReadLine.c.s
 
 src/ReadParameters.o: src/ReadParameters.c.o
@@ -2423,8 +2423,8 @@ src/ReadParameters.o: src/ReadParameters.c.o
 
 # target to build an object file
 src/ReadParameters.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.o
 .PHONY : src/ReadParameters.c.o
 
 src/ReadParameters.i: src/ReadParameters.c.i
@@ -2433,8 +2433,8 @@ src/ReadParameters.i: src/ReadParameters.c.i
 
 # target to preprocess a source file
 src/ReadParameters.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.i
 .PHONY : src/ReadParameters.c.i
 
 src/ReadParameters.s: src/ReadParameters.c.s
@@ -2443,8 +2443,8 @@ src/ReadParameters.s: src/ReadParameters.c.s
 
 # target to generate assembly for a file
 src/ReadParameters.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadParameters.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadParameters.c.s
 .PHONY : src/ReadParameters.c.s
 
 src/ReadPenalties.o: src/ReadPenalties.c.o
@@ -2453,8 +2453,8 @@ src/ReadPenalties.o: src/ReadPenalties.c.o
 
 # target to build an object file
 src/ReadPenalties.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.o
 .PHONY : src/ReadPenalties.c.o
 
 src/ReadPenalties.i: src/ReadPenalties.c.i
@@ -2463,8 +2463,8 @@ src/ReadPenalties.i: src/ReadPenalties.c.i
 
 # target to preprocess a source file
 src/ReadPenalties.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.i
 .PHONY : src/ReadPenalties.c.i
 
 src/ReadPenalties.s: src/ReadPenalties.c.s
@@ -2473,8 +2473,8 @@ src/ReadPenalties.s: src/ReadPenalties.c.s
 
 # target to generate assembly for a file
 src/ReadPenalties.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadPenalties.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadPenalties.c.s
 .PHONY : src/ReadPenalties.c.s
 
 src/ReadProblem.o: src/ReadProblem.c.o
@@ -2483,8 +2483,8 @@ src/ReadProblem.o: src/ReadProblem.c.o
 
 # target to build an object file
 src/ReadProblem.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.o
 .PHONY : src/ReadProblem.c.o
 
 src/ReadProblem.i: src/ReadProblem.c.i
@@ -2493,8 +2493,8 @@ src/ReadProblem.i: src/ReadProblem.c.i
 
 # target to preprocess a source file
 src/ReadProblem.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.i
 .PHONY : src/ReadProblem.c.i
 
 src/ReadProblem.s: src/ReadProblem.c.s
@@ -2503,8 +2503,8 @@ src/ReadProblem.s: src/ReadProblem.c.s
 
 # target to generate assembly for a file
 src/ReadProblem.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ReadProblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ReadProblem.c.s
 .PHONY : src/ReadProblem.c.s
 
 src/RecordBestTour.o: src/RecordBestTour.c.o
@@ -2513,8 +2513,8 @@ src/RecordBestTour.o: src/RecordBestTour.c.o
 
 # target to build an object file
 src/RecordBestTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.o
 .PHONY : src/RecordBestTour.c.o
 
 src/RecordBestTour.i: src/RecordBestTour.c.i
@@ -2523,8 +2523,8 @@ src/RecordBestTour.i: src/RecordBestTour.c.i
 
 # target to preprocess a source file
 src/RecordBestTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.i
 .PHONY : src/RecordBestTour.c.i
 
 src/RecordBestTour.s: src/RecordBestTour.c.s
@@ -2533,8 +2533,8 @@ src/RecordBestTour.s: src/RecordBestTour.c.s
 
 # target to generate assembly for a file
 src/RecordBestTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBestTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBestTour.c.s
 .PHONY : src/RecordBestTour.c.s
 
 src/RecordBetterTour.o: src/RecordBetterTour.c.o
@@ -2543,8 +2543,8 @@ src/RecordBetterTour.o: src/RecordBetterTour.c.o
 
 # target to build an object file
 src/RecordBetterTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.o
 .PHONY : src/RecordBetterTour.c.o
 
 src/RecordBetterTour.i: src/RecordBetterTour.c.i
@@ -2553,8 +2553,8 @@ src/RecordBetterTour.i: src/RecordBetterTour.c.i
 
 # target to preprocess a source file
 src/RecordBetterTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.i
 .PHONY : src/RecordBetterTour.c.i
 
 src/RecordBetterTour.s: src/RecordBetterTour.c.s
@@ -2563,8 +2563,8 @@ src/RecordBetterTour.s: src/RecordBetterTour.c.s
 
 # target to generate assembly for a file
 src/RecordBetterTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RecordBetterTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RecordBetterTour.c.s
 .PHONY : src/RecordBetterTour.c.s
 
 src/RemoveFirstActive.o: src/RemoveFirstActive.c.o
@@ -2573,8 +2573,8 @@ src/RemoveFirstActive.o: src/RemoveFirstActive.c.o
 
 # target to build an object file
 src/RemoveFirstActive.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.o
 .PHONY : src/RemoveFirstActive.c.o
 
 src/RemoveFirstActive.i: src/RemoveFirstActive.c.i
@@ -2583,8 +2583,8 @@ src/RemoveFirstActive.i: src/RemoveFirstActive.c.i
 
 # target to preprocess a source file
 src/RemoveFirstActive.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.i
 .PHONY : src/RemoveFirstActive.c.i
 
 src/RemoveFirstActive.s: src/RemoveFirstActive.c.s
@@ -2593,8 +2593,8 @@ src/RemoveFirstActive.s: src/RemoveFirstActive.c.s
 
 # target to generate assembly for a file
 src/RemoveFirstActive.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RemoveFirstActive.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RemoveFirstActive.c.s
 .PHONY : src/RemoveFirstActive.c.s
 
 src/ResetCandidateSet.o: src/ResetCandidateSet.c.o
@@ -2603,8 +2603,8 @@ src/ResetCandidateSet.o: src/ResetCandidateSet.c.o
 
 # target to build an object file
 src/ResetCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.o
 .PHONY : src/ResetCandidateSet.c.o
 
 src/ResetCandidateSet.i: src/ResetCandidateSet.c.i
@@ -2613,8 +2613,8 @@ src/ResetCandidateSet.i: src/ResetCandidateSet.c.i
 
 # target to preprocess a source file
 src/ResetCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.i
 .PHONY : src/ResetCandidateSet.c.i
 
 src/ResetCandidateSet.s: src/ResetCandidateSet.c.s
@@ -2623,8 +2623,8 @@ src/ResetCandidateSet.s: src/ResetCandidateSet.c.s
 
 # target to generate assembly for a file
 src/ResetCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/ResetCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/ResetCandidateSet.c.s
 .PHONY : src/ResetCandidateSet.c.s
 
 src/RestoreTour.o: src/RestoreTour.c.o
@@ -2633,8 +2633,8 @@ src/RestoreTour.o: src/RestoreTour.c.o
 
 # target to build an object file
 src/RestoreTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.o
 .PHONY : src/RestoreTour.c.o
 
 src/RestoreTour.i: src/RestoreTour.c.i
@@ -2643,8 +2643,8 @@ src/RestoreTour.i: src/RestoreTour.c.i
 
 # target to preprocess a source file
 src/RestoreTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.i
 .PHONY : src/RestoreTour.c.i
 
 src/RestoreTour.s: src/RestoreTour.c.s
@@ -2653,8 +2653,8 @@ src/RestoreTour.s: src/RestoreTour.c.s
 
 # target to generate assembly for a file
 src/RestoreTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/RestoreTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/RestoreTour.c.s
 .PHONY : src/RestoreTour.c.s
 
 src/SFCTour.o: src/SFCTour.c.o
@@ -2663,8 +2663,8 @@ src/SFCTour.o: src/SFCTour.c.o
 
 # target to build an object file
 src/SFCTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.o
 .PHONY : src/SFCTour.c.o
 
 src/SFCTour.i: src/SFCTour.c.i
@@ -2673,8 +2673,8 @@ src/SFCTour.i: src/SFCTour.c.i
 
 # target to preprocess a source file
 src/SFCTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.i
 .PHONY : src/SFCTour.c.i
 
 src/SFCTour.s: src/SFCTour.c.s
@@ -2683,8 +2683,8 @@ src/SFCTour.s: src/SFCTour.c.s
 
 # target to generate assembly for a file
 src/SFCTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SFCTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SFCTour.c.s
 .PHONY : src/SFCTour.c.s
 
 src/SegmentSize.o: src/SegmentSize.c.o
@@ -2693,8 +2693,8 @@ src/SegmentSize.o: src/SegmentSize.c.o
 
 # target to build an object file
 src/SegmentSize.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.o
 .PHONY : src/SegmentSize.c.o
 
 src/SegmentSize.i: src/SegmentSize.c.i
@@ -2703,8 +2703,8 @@ src/SegmentSize.i: src/SegmentSize.c.i
 
 # target to preprocess a source file
 src/SegmentSize.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.i
 .PHONY : src/SegmentSize.c.i
 
 src/SegmentSize.s: src/SegmentSize.c.s
@@ -2713,8 +2713,8 @@ src/SegmentSize.s: src/SegmentSize.c.s
 
 # target to generate assembly for a file
 src/SegmentSize.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SegmentSize.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SegmentSize.c.s
 .PHONY : src/SegmentSize.c.s
 
 src/Sequence.o: src/Sequence.c.o
@@ -2723,8 +2723,8 @@ src/Sequence.o: src/Sequence.c.o
 
 # target to build an object file
 src/Sequence.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.o
 .PHONY : src/Sequence.c.o
 
 src/Sequence.i: src/Sequence.c.i
@@ -2733,8 +2733,8 @@ src/Sequence.i: src/Sequence.c.i
 
 # target to preprocess a source file
 src/Sequence.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.i
 .PHONY : src/Sequence.c.i
 
 src/Sequence.s: src/Sequence.c.s
@@ -2743,8 +2743,8 @@ src/Sequence.s: src/Sequence.c.s
 
 # target to generate assembly for a file
 src/Sequence.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Sequence.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Sequence.c.s
 .PHONY : src/Sequence.c.s
 
 src/SolveCompressedSubproblem.o: src/SolveCompressedSubproblem.c.o
@@ -2753,8 +2753,8 @@ src/SolveCompressedSubproblem.o: src/SolveCompressedSubproblem.c.o
 
 # target to build an object file
 src/SolveCompressedSubproblem.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.o
 .PHONY : src/SolveCompressedSubproblem.c.o
 
 src/SolveCompressedSubproblem.i: src/SolveCompressedSubproblem.c.i
@@ -2763,8 +2763,8 @@ src/SolveCompressedSubproblem.i: src/SolveCompressedSubproblem.c.i
 
 # target to preprocess a source file
 src/SolveCompressedSubproblem.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.i
 .PHONY : src/SolveCompressedSubproblem.c.i
 
 src/SolveCompressedSubproblem.s: src/SolveCompressedSubproblem.c.s
@@ -2773,8 +2773,8 @@ src/SolveCompressedSubproblem.s: src/SolveCompressedSubproblem.c.s
 
 # target to generate assembly for a file
 src/SolveCompressedSubproblem.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveCompressedSubproblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveCompressedSubproblem.c.s
 .PHONY : src/SolveCompressedSubproblem.c.s
 
 src/SolveDelaunaySubproblems.o: src/SolveDelaunaySubproblems.c.o
@@ -2783,8 +2783,8 @@ src/SolveDelaunaySubproblems.o: src/SolveDelaunaySubproblems.c.o
 
 # target to build an object file
 src/SolveDelaunaySubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.o
 .PHONY : src/SolveDelaunaySubproblems.c.o
 
 src/SolveDelaunaySubproblems.i: src/SolveDelaunaySubproblems.c.i
@@ -2793,8 +2793,8 @@ src/SolveDelaunaySubproblems.i: src/SolveDelaunaySubproblems.c.i
 
 # target to preprocess a source file
 src/SolveDelaunaySubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.i
 .PHONY : src/SolveDelaunaySubproblems.c.i
 
 src/SolveDelaunaySubproblems.s: src/SolveDelaunaySubproblems.c.s
@@ -2803,8 +2803,8 @@ src/SolveDelaunaySubproblems.s: src/SolveDelaunaySubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveDelaunaySubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveDelaunaySubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveDelaunaySubproblems.c.s
 .PHONY : src/SolveDelaunaySubproblems.c.s
 
 src/SolveKCenterSubproblems.o: src/SolveKCenterSubproblems.c.o
@@ -2813,8 +2813,8 @@ src/SolveKCenterSubproblems.o: src/SolveKCenterSubproblems.c.o
 
 # target to build an object file
 src/SolveKCenterSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.o
 .PHONY : src/SolveKCenterSubproblems.c.o
 
 src/SolveKCenterSubproblems.i: src/SolveKCenterSubproblems.c.i
@@ -2823,8 +2823,8 @@ src/SolveKCenterSubproblems.i: src/SolveKCenterSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveKCenterSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.i
 .PHONY : src/SolveKCenterSubproblems.c.i
 
 src/SolveKCenterSubproblems.s: src/SolveKCenterSubproblems.c.s
@@ -2833,8 +2833,8 @@ src/SolveKCenterSubproblems.s: src/SolveKCenterSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveKCenterSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKCenterSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKCenterSubproblems.c.s
 .PHONY : src/SolveKCenterSubproblems.c.s
 
 src/SolveKMeansSubproblems.o: src/SolveKMeansSubproblems.c.o
@@ -2843,8 +2843,8 @@ src/SolveKMeansSubproblems.o: src/SolveKMeansSubproblems.c.o
 
 # target to build an object file
 src/SolveKMeansSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.o
 .PHONY : src/SolveKMeansSubproblems.c.o
 
 src/SolveKMeansSubproblems.i: src/SolveKMeansSubproblems.c.i
@@ -2853,8 +2853,8 @@ src/SolveKMeansSubproblems.i: src/SolveKMeansSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveKMeansSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.i
 .PHONY : src/SolveKMeansSubproblems.c.i
 
 src/SolveKMeansSubproblems.s: src/SolveKMeansSubproblems.c.s
@@ -2863,8 +2863,8 @@ src/SolveKMeansSubproblems.s: src/SolveKMeansSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveKMeansSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKMeansSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKMeansSubproblems.c.s
 .PHONY : src/SolveKMeansSubproblems.c.s
 
 src/SolveKarpSubproblems.o: src/SolveKarpSubproblems.c.o
@@ -2873,8 +2873,8 @@ src/SolveKarpSubproblems.o: src/SolveKarpSubproblems.c.o
 
 # target to build an object file
 src/SolveKarpSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.o
 .PHONY : src/SolveKarpSubproblems.c.o
 
 src/SolveKarpSubproblems.i: src/SolveKarpSubproblems.c.i
@@ -2883,8 +2883,8 @@ src/SolveKarpSubproblems.i: src/SolveKarpSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveKarpSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.i
 .PHONY : src/SolveKarpSubproblems.c.i
 
 src/SolveKarpSubproblems.s: src/SolveKarpSubproblems.c.s
@@ -2893,8 +2893,8 @@ src/SolveKarpSubproblems.s: src/SolveKarpSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveKarpSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveKarpSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveKarpSubproblems.c.s
 .PHONY : src/SolveKarpSubproblems.c.s
 
 src/SolveRoheSubproblems.o: src/SolveRoheSubproblems.c.o
@@ -2903,8 +2903,8 @@ src/SolveRoheSubproblems.o: src/SolveRoheSubproblems.c.o
 
 # target to build an object file
 src/SolveRoheSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.o
 .PHONY : src/SolveRoheSubproblems.c.o
 
 src/SolveRoheSubproblems.i: src/SolveRoheSubproblems.c.i
@@ -2913,8 +2913,8 @@ src/SolveRoheSubproblems.i: src/SolveRoheSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveRoheSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.i
 .PHONY : src/SolveRoheSubproblems.c.i
 
 src/SolveRoheSubproblems.s: src/SolveRoheSubproblems.c.s
@@ -2923,8 +2923,8 @@ src/SolveRoheSubproblems.s: src/SolveRoheSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveRoheSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveRoheSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveRoheSubproblems.c.s
 .PHONY : src/SolveRoheSubproblems.c.s
 
 src/SolveSFCSubproblems.o: src/SolveSFCSubproblems.c.o
@@ -2933,8 +2933,8 @@ src/SolveSFCSubproblems.o: src/SolveSFCSubproblems.c.o
 
 # target to build an object file
 src/SolveSFCSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.o
 .PHONY : src/SolveSFCSubproblems.c.o
 
 src/SolveSFCSubproblems.i: src/SolveSFCSubproblems.c.i
@@ -2943,8 +2943,8 @@ src/SolveSFCSubproblems.i: src/SolveSFCSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveSFCSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.i
 .PHONY : src/SolveSFCSubproblems.c.i
 
 src/SolveSFCSubproblems.s: src/SolveSFCSubproblems.c.s
@@ -2953,8 +2953,8 @@ src/SolveSFCSubproblems.s: src/SolveSFCSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveSFCSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSFCSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSFCSubproblems.c.s
 .PHONY : src/SolveSFCSubproblems.c.s
 
 src/SolveSubproblem.o: src/SolveSubproblem.c.o
@@ -2963,8 +2963,8 @@ src/SolveSubproblem.o: src/SolveSubproblem.c.o
 
 # target to build an object file
 src/SolveSubproblem.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.o
 .PHONY : src/SolveSubproblem.c.o
 
 src/SolveSubproblem.i: src/SolveSubproblem.c.i
@@ -2973,8 +2973,8 @@ src/SolveSubproblem.i: src/SolveSubproblem.c.i
 
 # target to preprocess a source file
 src/SolveSubproblem.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.i
 .PHONY : src/SolveSubproblem.c.i
 
 src/SolveSubproblem.s: src/SolveSubproblem.c.s
@@ -2983,8 +2983,8 @@ src/SolveSubproblem.s: src/SolveSubproblem.c.s
 
 # target to generate assembly for a file
 src/SolveSubproblem.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblem.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblem.c.s
 .PHONY : src/SolveSubproblem.c.s
 
 src/SolveSubproblemBorderProblems.o: src/SolveSubproblemBorderProblems.c.o
@@ -2993,8 +2993,8 @@ src/SolveSubproblemBorderProblems.o: src/SolveSubproblemBorderProblems.c.o
 
 # target to build an object file
 src/SolveSubproblemBorderProblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.o
 .PHONY : src/SolveSubproblemBorderProblems.c.o
 
 src/SolveSubproblemBorderProblems.i: src/SolveSubproblemBorderProblems.c.i
@@ -3003,8 +3003,8 @@ src/SolveSubproblemBorderProblems.i: src/SolveSubproblemBorderProblems.c.i
 
 # target to preprocess a source file
 src/SolveSubproblemBorderProblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.i
 .PHONY : src/SolveSubproblemBorderProblems.c.i
 
 src/SolveSubproblemBorderProblems.s: src/SolveSubproblemBorderProblems.c.s
@@ -3013,8 +3013,8 @@ src/SolveSubproblemBorderProblems.s: src/SolveSubproblemBorderProblems.c.s
 
 # target to generate assembly for a file
 src/SolveSubproblemBorderProblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveSubproblemBorderProblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveSubproblemBorderProblems.c.s
 .PHONY : src/SolveSubproblemBorderProblems.c.s
 
 src/SolveTourSegmentSubproblems.o: src/SolveTourSegmentSubproblems.c.o
@@ -3023,8 +3023,8 @@ src/SolveTourSegmentSubproblems.o: src/SolveTourSegmentSubproblems.c.o
 
 # target to build an object file
 src/SolveTourSegmentSubproblems.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.o
 .PHONY : src/SolveTourSegmentSubproblems.c.o
 
 src/SolveTourSegmentSubproblems.i: src/SolveTourSegmentSubproblems.c.i
@@ -3033,8 +3033,8 @@ src/SolveTourSegmentSubproblems.i: src/SolveTourSegmentSubproblems.c.i
 
 # target to preprocess a source file
 src/SolveTourSegmentSubproblems.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.i
 .PHONY : src/SolveTourSegmentSubproblems.c.i
 
 src/SolveTourSegmentSubproblems.s: src/SolveTourSegmentSubproblems.c.s
@@ -3043,8 +3043,8 @@ src/SolveTourSegmentSubproblems.s: src/SolveTourSegmentSubproblems.c.s
 
 # target to generate assembly for a file
 src/SolveTourSegmentSubproblems.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SolveTourSegmentSubproblems.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SolveTourSegmentSubproblems.c.s
 .PHONY : src/SolveTourSegmentSubproblems.c.s
 
 src/Statistics.o: src/Statistics.c.o
@@ -3053,8 +3053,8 @@ src/Statistics.o: src/Statistics.c.o
 
 # target to build an object file
 src/Statistics.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.o
 .PHONY : src/Statistics.c.o
 
 src/Statistics.i: src/Statistics.c.i
@@ -3063,8 +3063,8 @@ src/Statistics.i: src/Statistics.c.i
 
 # target to preprocess a source file
 src/Statistics.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.i
 .PHONY : src/Statistics.c.i
 
 src/Statistics.s: src/Statistics.c.s
@@ -3073,8 +3073,8 @@ src/Statistics.s: src/Statistics.c.s
 
 # target to generate assembly for a file
 src/Statistics.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/Statistics.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/Statistics.c.s
 .PHONY : src/Statistics.c.s
 
 src/StoreTour.o: src/StoreTour.c.o
@@ -3083,8 +3083,8 @@ src/StoreTour.o: src/StoreTour.c.o
 
 # target to build an object file
 src/StoreTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.o
 .PHONY : src/StoreTour.c.o
 
 src/StoreTour.i: src/StoreTour.c.i
@@ -3093,8 +3093,8 @@ src/StoreTour.i: src/StoreTour.c.i
 
 # target to preprocess a source file
 src/StoreTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.i
 .PHONY : src/StoreTour.c.i
 
 src/StoreTour.s: src/StoreTour.c.s
@@ -3103,8 +3103,8 @@ src/StoreTour.s: src/StoreTour.c.s
 
 # target to generate assembly for a file
 src/StoreTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/StoreTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/StoreTour.c.s
 .PHONY : src/StoreTour.c.s
 
 src/SymmetrizeCandidateSet.o: src/SymmetrizeCandidateSet.c.o
@@ -3113,8 +3113,8 @@ src/SymmetrizeCandidateSet.o: src/SymmetrizeCandidateSet.c.o
 
 # target to build an object file
 src/SymmetrizeCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.o
 .PHONY : src/SymmetrizeCandidateSet.c.o
 
 src/SymmetrizeCandidateSet.i: src/SymmetrizeCandidateSet.c.i
@@ -3123,8 +3123,8 @@ src/SymmetrizeCandidateSet.i: src/SymmetrizeCandidateSet.c.i
 
 # target to preprocess a source file
 src/SymmetrizeCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.i
 .PHONY : src/SymmetrizeCandidateSet.c.i
 
 src/SymmetrizeCandidateSet.s: src/SymmetrizeCandidateSet.c.s
@@ -3133,8 +3133,8 @@ src/SymmetrizeCandidateSet.s: src/SymmetrizeCandidateSet.c.s
 
 # target to generate assembly for a file
 src/SymmetrizeCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/SymmetrizeCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/SymmetrizeCandidateSet.c.s
 .PHONY : src/SymmetrizeCandidateSet.c.s
 
 src/TrimCandidateSet.o: src/TrimCandidateSet.c.o
@@ -3143,8 +3143,8 @@ src/TrimCandidateSet.o: src/TrimCandidateSet.c.o
 
 # target to build an object file
 src/TrimCandidateSet.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.o
 .PHONY : src/TrimCandidateSet.c.o
 
 src/TrimCandidateSet.i: src/TrimCandidateSet.c.i
@@ -3153,8 +3153,8 @@ src/TrimCandidateSet.i: src/TrimCandidateSet.c.i
 
 # target to preprocess a source file
 src/TrimCandidateSet.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.i
 .PHONY : src/TrimCandidateSet.c.i
 
 src/TrimCandidateSet.s: src/TrimCandidateSet.c.s
@@ -3163,8 +3163,8 @@ src/TrimCandidateSet.s: src/TrimCandidateSet.c.s
 
 # target to generate assembly for a file
 src/TrimCandidateSet.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/TrimCandidateSet.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/TrimCandidateSet.c.s
 .PHONY : src/TrimCandidateSet.c.s
 
 src/WriteCandidates.o: src/WriteCandidates.c.o
@@ -3173,8 +3173,8 @@ src/WriteCandidates.o: src/WriteCandidates.c.o
 
 # target to build an object file
 src/WriteCandidates.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.o
 .PHONY : src/WriteCandidates.c.o
 
 src/WriteCandidates.i: src/WriteCandidates.c.i
@@ -3183,8 +3183,8 @@ src/WriteCandidates.i: src/WriteCandidates.c.i
 
 # target to preprocess a source file
 src/WriteCandidates.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.i
 .PHONY : src/WriteCandidates.c.i
 
 src/WriteCandidates.s: src/WriteCandidates.c.s
@@ -3193,8 +3193,8 @@ src/WriteCandidates.s: src/WriteCandidates.c.s
 
 # target to generate assembly for a file
 src/WriteCandidates.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteCandidates.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteCandidates.c.s
 .PHONY : src/WriteCandidates.c.s
 
 src/WritePenalties.o: src/WritePenalties.c.o
@@ -3203,8 +3203,8 @@ src/WritePenalties.o: src/WritePenalties.c.o
 
 # target to build an object file
 src/WritePenalties.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.o
 .PHONY : src/WritePenalties.c.o
 
 src/WritePenalties.i: src/WritePenalties.c.i
@@ -3213,8 +3213,8 @@ src/WritePenalties.i: src/WritePenalties.c.i
 
 # target to preprocess a source file
 src/WritePenalties.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.i
 .PHONY : src/WritePenalties.c.i
 
 src/WritePenalties.s: src/WritePenalties.c.s
@@ -3223,8 +3223,8 @@ src/WritePenalties.s: src/WritePenalties.c.s
 
 # target to generate assembly for a file
 src/WritePenalties.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WritePenalties.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WritePenalties.c.s
 .PHONY : src/WritePenalties.c.s
 
 src/WriteTour.o: src/WriteTour.c.o
@@ -3233,8 +3233,8 @@ src/WriteTour.o: src/WriteTour.c.o
 
 # target to build an object file
 src/WriteTour.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.o
 .PHONY : src/WriteTour.c.o
 
 src/WriteTour.i: src/WriteTour.c.i
@@ -3243,8 +3243,8 @@ src/WriteTour.i: src/WriteTour.c.i
 
 # target to preprocess a source file
 src/WriteTour.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.i
 .PHONY : src/WriteTour.c.i
 
 src/WriteTour.s: src/WriteTour.c.s
@@ -3253,8 +3253,8 @@ src/WriteTour.s: src/WriteTour.c.s
 
 # target to generate assembly for a file
 src/WriteTour.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/WriteTour.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/WriteTour.c.s
 .PHONY : src/WriteTour.c.s
 
 src/eprintf.o: src/eprintf.c.o
@@ -3263,8 +3263,8 @@ src/eprintf.o: src/eprintf.c.o
 
 # target to build an object file
 src/eprintf.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.o
 .PHONY : src/eprintf.c.o
 
 src/eprintf.i: src/eprintf.c.i
@@ -3273,8 +3273,8 @@ src/eprintf.i: src/eprintf.c.i
 
 # target to preprocess a source file
 src/eprintf.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.i
 .PHONY : src/eprintf.c.i
 
 src/eprintf.s: src/eprintf.c.s
@@ -3283,8 +3283,8 @@ src/eprintf.s: src/eprintf.c.s
 
 # target to generate assembly for a file
 src/eprintf.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/eprintf.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/eprintf.c.s
 .PHONY : src/eprintf.c.s
 
 src/fscanint.o: src/fscanint.c.o
@@ -3293,8 +3293,8 @@ src/fscanint.o: src/fscanint.c.o
 
 # target to build an object file
 src/fscanint.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.o
 .PHONY : src/fscanint.c.o
 
 src/fscanint.i: src/fscanint.c.i
@@ -3303,8 +3303,8 @@ src/fscanint.i: src/fscanint.c.i
 
 # target to preprocess a source file
 src/fscanint.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.i
 .PHONY : src/fscanint.c.i
 
 src/fscanint.s: src/fscanint.c.s
@@ -3313,8 +3313,8 @@ src/fscanint.s: src/fscanint.c.s
 
 # target to generate assembly for a file
 src/fscanint.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/fscanint.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/fscanint.c.s
 .PHONY : src/fscanint.c.s
 
 src/gpx.o: src/gpx.c.o
@@ -3323,8 +3323,8 @@ src/gpx.o: src/gpx.c.o
 
 # target to build an object file
 src/gpx.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.o
 .PHONY : src/gpx.c.o
 
 src/gpx.i: src/gpx.c.i
@@ -3333,8 +3333,8 @@ src/gpx.i: src/gpx.c.i
 
 # target to preprocess a source file
 src/gpx.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.i
 .PHONY : src/gpx.c.i
 
 src/gpx.s: src/gpx.c.s
@@ -3343,8 +3343,8 @@ src/gpx.s: src/gpx.c.s
 
 # target to generate assembly for a file
 src/gpx.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/gpx.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/gpx.c.s
 .PHONY : src/gpx.c.s
 
 src/lkh_interface.o: src/lkh_interface.cpp.o
@@ -3353,7 +3353,7 @@ src/lkh_interface.o: src/lkh_interface.cpp.o
 
 # target to build an object file
 src/lkh_interface.cpp.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.o
 .PHONY : src/lkh_interface.cpp.o
 
 src/lkh_interface.i: src/lkh_interface.cpp.i
@@ -3362,7 +3362,7 @@ src/lkh_interface.i: src/lkh_interface.cpp.i
 
 # target to preprocess a source file
 src/lkh_interface.cpp.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.i
 .PHONY : src/lkh_interface.cpp.i
 
 src/lkh_interface.s: src/lkh_interface.cpp.s
@@ -3371,7 +3371,7 @@ src/lkh_interface.s: src/lkh_interface.cpp.s
 
 # target to generate assembly for a file
 src/lkh_interface.cpp.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/lkh_interface.cpp.s
 .PHONY : src/lkh_interface.cpp.s
 
 src/printff.o: src/printff.c.o
@@ -3380,8 +3380,8 @@ src/printff.o: src/printff.c.o
 
 # target to build an object file
 src/printff.c.o:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.o
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.o
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.o
 .PHONY : src/printff.c.o
 
 src/printff.i: src/printff.c.i
@@ -3390,8 +3390,8 @@ src/printff.i: src/printff.c.i
 
 # target to preprocess a source file
 src/printff.c.i:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.i
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.i
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.i
 .PHONY : src/printff.c.i
 
 src/printff.s: src/printff.c.s
@@ -3400,8 +3400,8 @@ src/printff.s: src/printff.c.s
 
 # target to generate assembly for a file
 src/printff.c.s:
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.s
-	cd /home/gjh/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp.dir/src/printff.c.s
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(MAKE) -f FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/build.make FUEL/fuel_planner/utils/lkh_tsp_solver/CMakeFiles/lkh_tsp_solver.dir/src/printff.c.s
 .PHONY : src/printff.c.s
 
 # Help Target
@@ -3751,6 +3751,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gjh/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gjh/uav-ugv/fuel/fuel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

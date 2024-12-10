@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gjh/fuel/fuel/devel/include/quadrotor_msgs/PositionCommand.h
+/home/gjh/uav-ugv/fuel/fuel/devel/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -30,7 +30,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/gjh/fuel/fuel/src/FUEL/fuel_planner/plan_manage/test/process_msg2.cpp
+/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/plan_manage/test/process_msg2.cpp
 ros/ros.h
 -
 visualization_msgs/Marker.h

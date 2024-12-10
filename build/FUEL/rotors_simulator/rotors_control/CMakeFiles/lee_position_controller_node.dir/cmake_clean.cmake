@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/rotors_control/lee_position_controller_node"
-  "/home/gjh/fuel/fuel/devel/lib/rotors_control/lee_position_controller_node.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_control/lee_position_controller_node"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/rotors_control/lee_position_controller_node.pdb"
   "CMakeFiles/lee_position_controller_node.dir/src/nodes/test.cpp.o"
 )
 

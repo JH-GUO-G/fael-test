@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/multi_map_server/manifest.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/MultiOccupancyGrid.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/MultiSparseMap3D.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/SparseMap3D.l"
-  "/home/gjh/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/VerticalOccupancyGridList.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/multi_map_server/manifest.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/MultiOccupancyGrid.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/MultiSparseMap3D.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/SparseMap3D.l"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/share/roseus/ros/multi_map_server/msg/VerticalOccupancyGridList.l"
   "CMakeFiles/multi_map_server_generate_messages_eus"
 )
 

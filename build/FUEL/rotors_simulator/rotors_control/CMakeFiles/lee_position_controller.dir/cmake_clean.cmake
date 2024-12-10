@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/gjh/fuel/fuel/devel/lib/liblee_position_controller.pdb"
-  "/home/gjh/fuel/fuel/devel/lib/liblee_position_controller.so"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/liblee_position_controller.pdb"
+  "/home/gjh/uav-ugv/fuel/fuel/devel/lib/liblee_position_controller.so"
   "CMakeFiles/lee_position_controller.dir/src/library/lee_position_controller.cpp.o"
 )
 

@@ -665,7 +665,7 @@ void FrontierFinder::sampleViewpoints(Frontier& frontier) {
   for (double rc = candidate_rmin_, dr = (candidate_rmax_ - candidate_rmin_) / candidate_rnum_;
        rc <= candidate_rmax_ + 1e-3; rc += dr)
     for (double phi = -M_PI; phi < M_PI; phi += candidate_dphi_) 
-      for(double z=0;z<0.15;z+=0.1){
+      for(double z=0.05;z<0.2;z+=0.1){
       const Vector3d sample_pos = frontier.average_ + rc * Vector3d(cos(phi), sin(phi), 0)+Vector3d(0,0,z);
 
       // Qualified viewpoint is in bounding box and in safe region

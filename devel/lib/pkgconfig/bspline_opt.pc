@@ -1,8 +1,8 @@
-prefix=/home/gjh/fuel/fuel/devel
+prefix=/home/gjh/uav-ugv/fuel/fuel/devel
 
 Name: bspline_opt
 Description: Description of bspline_opt
 Version: 0.0.0
-Cflags: -I/home/gjh/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/include
+Cflags: -I/home/gjh/uav-ugv/fuel/fuel/src/FUEL/fuel_planner/bspline_opt/include
 Libs: -L${prefix}/lib -lbspline_opt
 Requires: plan_env active_perception
